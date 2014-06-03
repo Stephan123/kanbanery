@@ -1,0 +1,8 @@
+{
+	"require":{
+		"unlight/sparrow": "dev-master",
+		"mikecao/flight": "dev-master",
+		"twig/twig": "v1.15.1",
+		"pimple/pimple": "v2.0.0"
+	}
+}
