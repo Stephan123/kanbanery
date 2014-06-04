@@ -17,6 +17,9 @@ class start{
         $a = 123;
 		$test = 123;
         $test2 = 345;
+		
+		
+		$qeqzeqeqzwe = 123456789;
         return;
     }
 
