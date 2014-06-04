@@ -13,6 +13,7 @@ class start{
 
     public function index(){
         echo 'index';
+        $a = 123;
 
         return;
     }
