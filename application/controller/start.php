@@ -1,9 +1,12 @@
 <?php
 
-class application_start{
+class start{
 
     public function go(){
         echo 'go';
+
+        $modleTest = new model_test();
+        $modleTest->test();
 
         return;
     }
