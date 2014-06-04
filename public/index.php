@@ -12,11 +12,20 @@
 include_once('../vendor/autoload.php');
 
 Flight::route('/', function(){
-    include_once('../application/start.php');
+    include_once('../application/controller/start.php');
+
+    $applicationStart = new start();
+    $applicationStart->index();
 });
 
-Flight::route('/@name', function($name){
-    include_once('../application/'.$name.'.php');
+Flight::route('/@klasse/@aktion', function($klasse, $aktion){
+    include_once("../application/controller/".$klasse.'.php');
+
+    $myClass = new $klasse();
+    $myClass->$aktion();
 });
+
+Flight::path('../application/');
+Flight::path('../library/');
 
 Flight::start();

@@ -4,11 +4,6 @@
 		"mikecao/flight": "dev-master",
 		"twig/twig": "v1.15.1",
 		"pimple/pimple": "v2.0.0"
-	},
-    "autoload": {
-        "psr-0":{
-            "application\\": "application/"
-        }
-    }
+	}
 
 }
