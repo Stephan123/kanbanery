@@ -16,7 +16,7 @@ class start{
 
         $a = 123;
 		$test = 123;
-
+        $test2 = 345;
         return;
     }
 
