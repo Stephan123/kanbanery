@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'phpSec' => array($vendorDir . '/phpsec/phpsec/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
     'Symfony\\Component\\Templating\\' => array($vendorDir . '/symfony/templating'),
     'Symfony\\Component\\Stopwatch\\' => array($vendorDir . '/symfony/stopwatch'),

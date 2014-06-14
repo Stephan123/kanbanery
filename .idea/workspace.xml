@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d996f70b-b3ca-4c69-8919-311e8ec4695f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/model/test.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\application\start.php" afterPath="$PROJECT_DIR$/application/controller/start.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\public\.htaccess" afterPath="$PROJECT_DIR$/public/_htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/abrufenTaskInfoTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kanbanery.iml" afterPath="$PROJECT_DIR$/.idea/kanbanery.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -43,16 +38,16 @@
       <file leaf-file-name="Loader.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="0" selection-start="4705" selection-end="4705" vertical-scroll-proportion="-5.586207" vertical-offset="3218" max-vertical-offset="4040">
+            <state line="174" column="0" selection-start="4705" selection-end="4705" vertical-scroll-proportion="-0.0" vertical-offset="3480" max-vertical-offset="4140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/model/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="417" selection-end="417" vertical-scroll-proportion="0.781893" vertical-offset="0" max-vertical-offset="620">
+            <state line="19" column="18" selection-start="417" selection-end="417" vertical-scroll-proportion="-13.103448" vertical-offset="0" max-vertical-offset="620">
               <folding />
             </state>
           </provider>
@@ -61,10 +56,8 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="-12.931034" vertical-offset="185" max-vertical-offset="720">
-              <folding>
-                <element signature="e#6#159#0" expanded="true" />
-              </folding>
+            <state line="28" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="-13.793103" vertical-offset="0" max-vertical-offset="560">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,8 +65,19 @@
       <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controller/start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="500">
+            <state line="8" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="560">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abrufenTaskInfoTest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/abrufenTaskInfoTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="50" selection-start="1122" selection-end="1122" vertical-scroll-proportion="1.9691119" vertical-offset="0" max-vertical-offset="2220">
+              <folding>
+                <element signature="e#7#362#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,11 +98,12 @@
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/application/start.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/application/models/test.php" />
         <option value="$PROJECT_DIR$/application/controller/start.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/application/model/test.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/spec/abrufenTaskInfoTest.php" />
       </list>
     </option>
   </component>
@@ -107,11 +112,10 @@
       <server host="kanbanery" name="kanbanery" />
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Php">
     <include_path>
       <path value="." />
       <path value="C:\xampp\php\pear" />
-      <path value="C:\xampp\htdocs\oige\library" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -153,15 +157,9 @@
               <option name="myItemId" value="kanbanery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -173,8 +171,18 @@
               <option name="myItemId" value="kanbanery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,19 +229,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Autoload.php" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="SearchEverywhereHistory" value="e" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\kanbanery\application\controller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.aktualisiereTaskInfoTest">
+    <configuration default="false" name="abrufenTaskInfoTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="abrufenTaskInfoTest" file="$PROJECT_DIR$/spec/abrufenTaskInfoTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="aktualisiereTaskInfoTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="aktualisiereTaskInfoTest" file="$PROJECT_DIR$/spec/abrufenTaskInfoTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -247,9 +270,35 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3d3336a3-1e16-4049-9d73-207602481297" server_name="kanbanery">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.abrufenTaskInfoTest" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.aktualisiereTaskInfoTest" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.aktualisiereTaskInfoTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.abrufenTaskInfoTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d996f70b-b3ca-4c69-8919-311e8ec4695f" name="Default" comment="" />
@@ -260,21 +309,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -303,96 +353,122 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/_htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="125" selection-end="125" vertical-scroll-proportion="0.05762712" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1545" selection-end="1545" vertical-scroll-proportion="1.1934156" vertical-offset="420" max-vertical-offset="1280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.16460906" vertical-offset="0" max-vertical-offset="486">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.16460906" vertical-offset="0" max-vertical-offset="486">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="-5.586207" vertical-offset="1738" max-vertical-offset="7240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="0" selection-start="4705" selection-end="4705" vertical-scroll-proportion="-5.586207" vertical-offset="3218" max-vertical-offset="4040">
+        <state line="174" column="0" selection-start="4705" selection-end="4705" vertical-scroll-proportion="0.0" vertical-offset="3480" max-vertical-offset="4140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/model/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="620">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="-12.931034" vertical-offset="185" max-vertical-offset="720">
-          <folding>
-            <element signature="e#6#159#0" expanded="true" />
-          </folding>
+        <state line="28" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/_htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="125" selection-end="125" vertical-scroll-proportion="0.05762712" vertical-offset="0" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1545" selection-end="1545" vertical-scroll-proportion="1.1934156" vertical-offset="420" max-vertical-offset="1280" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.16460906" vertical-offset="0" max-vertical-offset="486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.16460906" vertical-offset="0" max-vertical-offset="486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="-5.586207" vertical-offset="1738" max-vertical-offset="7240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="0" selection-start="4705" selection-end="4705" vertical-scroll-proportion="0.0" vertical-offset="3480" max-vertical-offset="4140">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/model/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="417" selection-end="417" vertical-scroll-proportion="0.781893" vertical-offset="0" max-vertical-offset="620">
+        <state line="19" column="18" selection-start="417" selection-end="417" vertical-scroll-proportion="-13.103448" vertical-offset="0" max-vertical-offset="620">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="-13.793103" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="246" selection-end="246" vertical-scroll-proportion="0.2600473" vertical-offset="0" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/Not.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="-6.62069" vertical-offset="1728" max-vertical-offset="3320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/abrufenTaskInfoTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="50" selection-start="1122" selection-end="1122" vertical-scroll-proportion="1.9691119" vertical-offset="0" max-vertical-offset="2220">
+          <folding>
+            <element signature="e#7#362#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
