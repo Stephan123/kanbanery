@@ -3,7 +3,9 @@
 		"unlight/sparrow": "dev-master",
 		"mikecao/flight": "dev-master",
 		"twig/twig": "v1.15.1",
-		"pimple/pimple": "v2.0.0"
+		"pimple/pimple": "v2.0.0",
+		"phpsec/phpsec":"0.6.*",
+		"doctrine/doctrine-bundle": "v1.2.0"
 	}
 
 }
