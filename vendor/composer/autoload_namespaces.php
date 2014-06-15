@@ -6,6 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'watoki\\factory' => array($vendorDir . '/watoki/factory/src'),
+    'spec\\watoki\\factory' => array($vendorDir . '/watoki/factory'),
+    'spec\\rtens\\mockster' => array($vendorDir . '/rtens/mockster'),
+    'rtens\\mockster' => array($vendorDir . '/rtens/mockster/src'),
     'phpSec' => array($vendorDir . '/phpsec/phpsec/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
@@ -26,6 +30,7 @@ return array(
     'Symfony\\Bridge\\Doctrine\\' => array($vendorDir . '/symfony/doctrine-bridge'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
+    'PHPParser' => array($vendorDir . '/nikic/php-parser/lib'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),

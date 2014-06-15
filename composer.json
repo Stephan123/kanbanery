@@ -1,12 +1,19 @@
 {
-	"require":{
-		"unlight/sparrow": "dev-master",
-		"mikecao/flight": "dev-master",
-		"twig/twig": "v1.15.1",
-		"pimple/pimple": "v2.0.0",
-		"doctrine/doctrine-bundle": "v1.2.0",
-        "phpunit/phpunit": "3.7.*",
-		"phpids/phpids": "dev-master"
-	}
+    "require": {
+        "unlight/sparrow": "dev-master",
+        "mikecao/flight": "dev-master",
+        "twig/twig": "v1.15.1",
+        "pimple/pimple": "v2.0.0",
+        "doctrine/doctrine-bundle": "v1.2.0"
+    },
+    "require-dev": {
+        "rtens/mockster": "2.*",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "stephan123\\kanbanery\\": "application/"
+        }
+    }
 
 }

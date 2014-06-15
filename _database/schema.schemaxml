@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="latin1" collation="latin1_swedish_ci">test</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="tasks" view="colnames">
+<left>131</left>
+<top>17</top>
+<width>166</width>
+<height>187</height>
+<sql_create_table>CREATE TABLE `tasks` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `title` varchar(200) NOT NULL,
+  `taskId` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</sql_create_table>
+</table>
+<table name="comments" view="colnames">
+<left>541</left>
+<top>3</top>
+<width>105</width>
+<height>107</height>
+<sql_create_table>CREATE TABLE `comments` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `tasks_id` int(10) NOT NULL,
+  `comments` text NOT NULL COMMENT 'beschreibende Kommentare',
+  PRIMARY KEY (`id`),
+  KEY `tbl_tasks` (`tasks_id`),
+  CONSTRAINT `tbl_tasks` FOREIGN KEY (`tasks_id`) REFERENCES `tasks` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</sql_create_table>
+</table>
+<table name="commits" view="colnames">
+<left>545</left>
+<top>150</top>
+<width>94</width>
+<height>124</height>
+<sql_create_table>CREATE TABLE `commits` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `tasks_id` int(10) NOT NULL COMMENT 'FK tasks',
+  `commits` text NOT NULL COMMENT 'Commits Task',
+  PRIMARY KEY (`id`),
+  KEY `tasks_id` (`tasks_id`),
+  CONSTRAINT `tasks_id` FOREIGN KEY (`tasks_id`) REFERENCES `tasks` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>

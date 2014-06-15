@@ -25,6 +25,7 @@ Flight::route('/@klasse/@aktion', function($klasse, $aktion){
     $myClass->$aktion();
 });
 
+Flight::path('../config/');
 Flight::path('../application/');
 Flight::path('../library/');
 

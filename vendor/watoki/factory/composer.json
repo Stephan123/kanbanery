@@ -1,0 +1,29 @@
+{
+    "name": "watoki/factory",
+    "description": "A simple dependency injection container for PHP",
+    "keywords": ["dependency injection", "watoki"],
+    "homepage": "http://github.com/watoki/factory",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolas Martens",
+            "email": "Nikolas.M@rtens.org",
+            "homepage": "http://rtens.org"
+        }
+    ],
+    "require": {
+        "nikic/php-parser": "0.9.4",
+        "php": ">=5.3.8"
+    },
+    "require-dev": {
+        "watoki/scrut":"*"
+    },
+    "autoload": {
+        "psr-0": {
+            "watoki\\factory": "src/",
+            "spec\\watoki\\factory": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

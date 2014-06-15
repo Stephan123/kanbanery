@@ -2241,5 +2241,152 @@
             "testing",
             "xunit"
         ]
+    },
+    {
+        "name": "nikic/php-parser",
+        "version": "v0.9.4",
+        "version_normalized": "0.9.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/PHP-Parser.git",
+            "reference": "1e5e280ae88a27effa2ae4aa2bd088494ed8594f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1e5e280ae88a27effa2ae4aa2bd088494ed8594f",
+            "reference": "1e5e280ae88a27effa2ae4aa2bd088494ed8594f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2013-08-25 17:11:40",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.9-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "PHPParser": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov"
+            }
+        ],
+        "description": "A PHP parser written in PHP",
+        "keywords": [
+            "parser",
+            "php"
+        ]
+    },
+    {
+        "name": "watoki/factory",
+        "version": "0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/watoki/factory.git",
+            "reference": "8ee546be14261f6bb611bd4791d27ca6fc470a9a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/watoki/factory/zipball/8ee546be14261f6bb611bd4791d27ca6fc470a9a",
+            "reference": "8ee546be14261f6bb611bd4791d27ca6fc470a9a",
+            "shasum": ""
+        },
+        "require": {
+            "nikic/php-parser": "0.9.4",
+            "php": ">=5.3.8"
+        },
+        "require-dev": {
+            "watoki/scrut": "*"
+        },
+        "time": "2013-11-06 22:03:54",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "watoki\\factory": "src/",
+                "spec\\watoki\\factory": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nikolas Martens",
+                "email": "Nikolas.M@rtens.org",
+                "homepage": "http://rtens.org"
+            }
+        ],
+        "description": "A simple dependency injection container for PHP",
+        "homepage": "http://github.com/watoki/factory",
+        "keywords": [
+            "dependency injection",
+            "watoki"
+        ]
+    },
+    {
+        "name": "rtens/mockster",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rtens/mockster.git",
+            "reference": "97ec1cdacc741b491c0e9fd6b4d480bcf09b2ad8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rtens/mockster/zipball/97ec1cdacc741b491c0e9fd6b4d480bcf09b2ad8",
+            "reference": "97ec1cdacc741b491c0e9fd6b4d480bcf09b2ad8",
+            "shasum": ""
+        },
+        "require": {
+            "nikic/php-parser": "0.9.4",
+            "php": ">=5.3.2",
+            "watoki/factory": "*"
+        },
+        "require-dev": {
+            "watoki/scrut": "*"
+        },
+        "time": "2014-04-19 09:43:47",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "rtens\\mockster": "src/",
+                "spec\\rtens\\mockster": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nikolas Martens",
+                "email": "Nikolas.M@rtens.org",
+                "homepage": "http://rtens.org"
+            }
+        ],
+        "description": "PHP Mocking framework",
+        "homepage": "http://github.com/rtens/mockster",
+        "keywords": [
+            "BDD",
+            "mock",
+            "mocking",
+            "unit testing"
+        ]
     }
 ]

@@ -1,52 +1,44 @@
 <?php
 
-/**
- * Beschreibung der Klasse
- *
- * Ausführliche Beschreibung der Klasse
- * Ausführliche Beschreibung der Klasse
- * Ausführliche Beschreibung der Klasse
- *
- *
- *
- *
- *
- * @author User
- * @date 14.06.14
- * @file abrufenTaskInfoTest.php
- * @package front | admin | tabelle | data | tools | plugins
- * @subpackage model | controller | filter | validator
- */
-
-class AktualisiererModel{
-
-    protected  $verbindungObj = null;
-
-    public function __construct($verbindung){
-        $this->verbindungObj = $verbindung;
-    }
-
-    public function aktualisiereDich()
-    {
-
-        if($this->verbindungObj == false){
-            throw new Exception('Verbindung nicht möglich',1);
-        }
-
-    }
-}
-
+use rtens\mockster\MockFactory;
+use stephan123\kanbanery\model\Aktualisierer;
+use stephan123\kanbanery\model\VerbindungDatenbank;
 
 class aktualisiereTaskInfoTest extends PHPUnit_Framework_TestCase
 {
-    private $verbindung = true;
+    protected $aktualisiererModel;
+    private $pimple;
+    private $tabelle;
 
     /** @var Exception */
     private $gefangeneException;
 
+    protected function setUp()
+    {
+        $mockFactory = new MockFactory();
+
+        $pimple = new Pimple();
+        $pimple[ 'verbindungObj' ] = $mockFactory->getInstance(VerbindungDatenbank::$CLASS);
+        $pimple[ 'verbindungObj' ]->__mock()->method('isConnected')->willReturn(true);
+
+        $sparrow = $mockFactory->getInstance('Sparrow');
+        $pimple[ 'sparrowObj' ] = $sparrow;
+
+        $sparrow->__mock()->method('from')->willReturn($sparrow);
+        $sparrow->__mock()->method('insert')->willCall(
+            function ($data) use ($sparrow) {
+                $this->tabelle[] = $data;
+                return $sparrow;
+            }
+        );
+
+        $this->pimple = $pimple;
+
+        $this->aktualisiererModel = new Aktualisierer($pimple);
+    }
+
     public function testKeineTaskVorhanden()
     {
-        // $this->markTestIncomplete('kommt noch');
         $this->angenommenKeineTaskVorhanden();
         $this->wennDieTaskInformationenAktualisiertWerden();
         $this->dannSollKeinFehlerGemeldetWerden();
@@ -63,20 +55,24 @@ class aktualisiereTaskInfoTest extends PHPUnit_Framework_TestCase
 
     public function testTaskMitMinimalerInfo()
     {
-        $this->markTestIncomplete('bbb');
+        $this->angenommenEsGibtAufKanbaneryEinenTaskMitDemTitel('Login Maske angelegt');
+        $this->wennDieTaskInformationenAktualisiertWerden();
+
+        $this->dannSollEsEinenTaskInDerTabelleGeben();
+        $this->dannSollEinTaskMitDemTitel_InDerTabelleStehen('Login Maske angelegt');
     }
 
     private function angenommenDieVerbindungIstNichtMöglich()
     {
-        $this->verbindung = false;
+        $this->pimple[ 'verbindungObj' ]->__mock()->method('isConnected')->willReturn(false);
     }
 
     private function wennDieTaskInformationenAktualisiertWerden()
     {
-        $aktualisiererModel = new AktualisiererModel($this->verbindung);
 
         try {
-            $aktualisiererModel->aktualisiereDich();
+            $this->aktualisiererModel->aktualisiereDich();
+
         } catch (\Exception $e) {
             $this->gefangeneException = $e;
         }
@@ -88,11 +84,6 @@ class aktualisiereTaskInfoTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($string, $this->gefangeneException->getMessage());
     }
 
-    private function angenommenKeineTaskVorhanden()
-    {
-
-    }
-
     private function dannSollKeinFehlerGemeldetWerden()
     {
         $this->assertNull($this->gefangeneException);
@@ -100,6 +91,35 @@ class aktualisiereTaskInfoTest extends PHPUnit_Framework_TestCase
 
     private function dannSollKeineInformationAbgespeichertWerden()
     {
+
+    }
+
+    private function angenommenKeineTaskVorhanden()
+    {
+    }
+
+    private function angenommenEsGibtAufKanbaneryEinenTaskMitDemTitel($string)
+    {
+
+    }
+
+    private function dannSollEsEinenTaskInDerTabelleGeben()
+    {
+
+        $this->assertEquals(1, count($this->tabelle));
+    }
+
+    private function dannSollEinTaskMitDemTitel_InDerTabelleStehen($string)
+    {
+
+        $titles = array_map(
+            function ($task) {
+                return $task[ 'title' ];
+            },
+            $this->tabelle
+        );
+
+        $this->assertContains($string, $titles);
     }
 
 }
