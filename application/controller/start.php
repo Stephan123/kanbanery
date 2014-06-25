@@ -1,29 +1,10 @@
 <?php
 
 class start{
+    protected $pimple = null;
 
-    public function verbindung(){
-        $connectData = array(
-            'type'     => 'mysql',
-            'hostname' => 'localhost',
-            'database' => 'test',
-            'username' => 'test',
-            'password' => 'test'
-        );
-
-        $pimple = new Pimple();
-        $pimple['connectData'] = $connectData;
-        $pimple['sparrow'] = function () {
-            return new Sparrow();
-        };
-
-        $verbindungDatenbank = new Model_VerbindungDatenbank();
-        $verbindungDatenbank
-            ->setPimple($pimple)
-            ->connectDatabase()
-            ->getDatabase();
-
-        $pimple['verbindungDatenbank'] = $verbindungDatenbank;
+    public function __construct(Pimple $pimple){
+        $this->pimple = $pimple;
     }
 
     public function go(){
@@ -36,9 +17,17 @@ class start{
     }
 
     public function index(){
-        echo 'index Action';
+        echo 'Action: index';
+
+        /** @var $config config */
+        $config = Flight::get('config');
+        $databaseConnectParams = $config->getValue('datenbank');
 
         return;
+    }
+
+    public function phpSec(){
+
     }
 
 }
