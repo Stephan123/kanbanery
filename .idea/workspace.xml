@@ -6,21 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d996f70b-b3ca-4c69-8919-311e8ec4695f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/config.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\application\model\VerbindungDatenbank.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php" afterPath="$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mikecao/flight/flight/Flight.php" afterPath="$PROJECT_DIR$/vendor/mikecao/flight/flight/Flight.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mikecao/flight/README.md" afterPath="$PROJECT_DIR$/vendor/mikecao/flight/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/mikecao/flight/VERSION" afterPath="$PROJECT_DIR$/vendor/mikecao/flight/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controller/errorController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/table/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/toolConfig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/toolException.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\tool\config.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\application\controller\start.php" afterPath="$PROJECT_DIR$/application/controller/startController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.ini" afterPath="$PROJECT_DIR$/config/config.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controller/start.php" afterPath="$PROJECT_DIR$/application/controller/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php" afterPath="$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kanbanery.iws" />
@@ -49,10 +43,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Engine.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
+      <file leaf-file-name="startController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="0" selection-start="3888" selection-end="3888" vertical-scroll-proportion="-6.7586207" vertical-offset="2684" max-vertical-offset="10140">
+            <state line="41" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.3318182" vertical-offset="674" max-vertical-offset="1240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errorController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controller/errorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="-6.206897" vertical-offset="100" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/model/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="12" selection-start="358" selection-end="358" vertical-scroll-proportion="-4.862069" vertical-offset="159" max-vertical-offset="620">
               <folding />
             </state>
           </provider>
@@ -61,16 +73,25 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="44" selection-start="940" selection-end="940" vertical-scroll-proportion="-7.6551723" vertical-offset="458" max-vertical-offset="1080">
+            <state line="78" column="32" selection-start="1981" selection-end="1996" vertical-scroll-proportion="-8.965517" vertical-offset="1140" max-vertical-offset="1580">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Loader.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
+      <file leaf-file-name="session.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/table/session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="0" selection-start="4861" selection-end="4861" vertical-scroll-proportion="-4.62069" vertical-offset="3326" max-vertical-offset="4040">
+            <state line="17" column="29" selection-start="410" selection-end="410" vertical-scroll-proportion="-5.5172415" vertical-offset="180" max-vertical-offset="640">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sparrow.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="755" column="20" selection-start="20142" selection-end="20142" vertical-scroll-proportion="92.206894" vertical-offset="17774" max-vertical-offset="31120">
               <folding />
             </state>
           </provider>
@@ -79,28 +100,40 @@
       <file leaf-file-name="config.ini" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="1" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+            <state line="10" column="10" selection-start="237" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controller/start.php">
+      <file leaf-file-name="toolConfig.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/toolConfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="-10.413794" vertical-offset="158" max-vertical-offset="760">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tool/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="133" selection-end="146" vertical-scroll-proportion="0.26578072" vertical-offset="0" max-vertical-offset="1360">
+            <state line="386" column="19" selection-start="13977" selection-end="13977" vertical-scroll-proportion="-163.06897" vertical-offset="2991" max-vertical-offset="7960">
               <folding>
-                <element signature="e#6#102#0" expanded="true" />
+                <marker date="1403725940551" expanded="false" signature="10531:10573" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="10682:10705" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="10730:10753" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="10774:10797" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="10973:10996" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="11193:11217" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="11239:11262" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="11407:11430" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="11672:11695" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="11716:11739" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="11854:11878" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="11900:11923" placeholder="..." />
+                <marker date="1403725940551" expanded="false" signature="12041:12064" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toolException.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/toolException.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="200">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,10 +176,19 @@
         <option value="$PROJECT_DIR$/application/model/Aktualisierer.php" />
         <option value="$PROJECT_DIR$/spec/abrufenTaskInfoTest.php" />
         <option value="$PROJECT_DIR$/tool/VerbindungDatenbank.php" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/tool/config.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/application/controller/start.php" />
+        <option value="$PROJECT_DIR$/tool/class.ConfigMagik.php" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/tool/toolConfig.php" />
+        <option value="$PROJECT_DIR$/tool/toolException.php" />
+        <option value="$PROJECT_DIR$/application/controller/errorController.php" />
+        <option value="$PROJECT_DIR$/application/table/sessions.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php" />
+        <option value="$PROJECT_DIR$/application/table/abstract.php" />
+        <option value="$PROJECT_DIR$/application/table/session.php" />
+        <option value="$PROJECT_DIR$/application/controller/startController.php" />
       </list>
     </option>
   </component>
@@ -205,8 +247,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1288" />
+    <option name="y" value="48" />
     <option name="width" value="1296" />
     <option name="height" value="1040" />
   </component>
@@ -255,7 +297,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,7 +325,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,29 +344,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,6 +368,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kanbanery\tool" />
+      <recent name="C:\xampp\htdocs\kanbanery\application\controller" />
       <recent name="C:\xampp\htdocs\kanbanery\application\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -432,8 +462,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1288" y="48" width="1296" height="1040" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -441,8 +471,8 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25762713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23909532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41694915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -451,12 +481,12 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -478,9 +508,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25772098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -503,15 +533,53 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/start.php</url>
-          <line>22</line>
-          <option name="timeStamp" value="39" />
+          <url>file://$PROJECT_DIR$/application/controller/startController.php</url>
+          <line>41</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="69" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="0" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.0" vertical-offset="3000" max-vertical-offset="10260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="44" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="0" selection-start="4861" selection-end="4861" vertical-scroll-proportion="0.0" vertical-offset="3560" max-vertical-offset="4140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="1" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="174" column="0" selection-start="4705" selection-end="4705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4140" />
@@ -529,7 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/start.php">
+    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="560" />
       </provider>
@@ -560,7 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/start.php">
+    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="27" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="500" />
       </provider>
@@ -610,16 +678,6 @@
         <state line="139" column="0" selection-start="4779" selection-end="4779" vertical-scroll-proportion="-6.62069" vertical-offset="1728" max-vertical-offset="3320" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="592" column="20" selection-start="15479" selection-end="15479" vertical-scroll-proportion="-0.018518519" vertical-offset="11849" max-vertical-offset="31120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/model/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="417" selection-end="417" vertical-scroll-proportion="0.45023698" vertical-offset="0" max-vertical-offset="844" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/php-code-coverage/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.07109005" vertical-offset="60" max-vertical-offset="1100" />
@@ -661,16 +719,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpsec/phpsec/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpsec/phpsec/tests/phpSec/Auth/AuthyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="830">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="830" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Flight.php">
@@ -680,54 +734,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="0" selection-start="4861" selection-end="4861" vertical-scroll-proportion="-4.62069" vertical-offset="3326" max-vertical-offset="4040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/model/Aktualisierer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="17" selection-end="44" vertical-scroll-proportion="0.044395115" vertical-offset="0" max-vertical-offset="901">
+        <state line="3" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.0689654" vertical-offset="0" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="44" selection-start="940" selection-end="940" vertical-scroll-proportion="-7.6551723" vertical-offset="458" max-vertical-offset="1080">
+        <state line="178" column="0" selection-start="4861" selection-end="4861" vertical-scroll-proportion="-5.034483" vertical-offset="3314" max-vertical-offset="4040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config/docs/ConfigMagik_API.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/model/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="358" selection-end="358" vertical-scroll-proportion="-4.862069" vertical-offset="159" max-vertical-offset="620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config/example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="44" selection-start="2006" selection-end="2030" vertical-scroll-proportion="0.7164667" vertical-offset="223" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="1" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="-10.413794" vertical-offset="158" max-vertical-offset="760">
+        <state line="10" column="10" selection-start="237" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="0" selection-start="3888" selection-end="3888" vertical-scroll-proportion="-6.7586207" vertical-offset="2684" max-vertical-offset="10140">
+        <state line="154" column="0" selection-start="3987" selection-end="3987" vertical-scroll-proportion="-5.275862" vertical-offset="2807" max-vertical-offset="10140">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool/config.php">
+    <entry file="file://$PROJECT_DIR$/tool/toolConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="133" selection-end="146" vertical-scroll-proportion="0.26578072" vertical-offset="0" max-vertical-offset="1360">
+        <state line="386" column="19" selection-start="13977" selection-end="13977" vertical-scroll-proportion="-163.06897" vertical-offset="2991" max-vertical-offset="7960">
           <folding>
-            <element signature="e#6#102#0" expanded="true" />
+            <marker date="1403725940551" expanded="false" signature="10531:10573" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="10682:10705" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="10730:10753" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="10774:10797" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="10973:10996" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="11193:11217" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="11239:11262" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="11407:11430" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="11672:11695" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="11716:11739" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="11854:11878" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="11900:11923" placeholder="..." />
+            <marker date="1403725940551" expanded="false" signature="12041:12064" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/toolException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="32" selection-start="1981" selection-end="1996" vertical-scroll-proportion="-8.965517" vertical-offset="1140" max-vertical-offset="1580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/table/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="410" selection-end="410" vertical-scroll-proportion="-5.5172415" vertical-offset="180" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="755" column="20" selection-start="20142" selection-end="20142" vertical-scroll-proportion="92.206894" vertical-offset="17774" max-vertical-offset="31120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/errorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="-6.206897" vertical-offset="100" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.3318182" vertical-offset="674" max-vertical-offset="1240">
+          <folding />
         </state>
       </provider>
     </entry>
