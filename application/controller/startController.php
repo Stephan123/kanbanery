@@ -2,9 +2,12 @@
 
 class startController{
     protected $pimple = null;
+    protected $params = null;
 
     public function __construct(Pimple $pimple){
         $this->pimple = $pimple;
+
+        $this->params = Flight::get('params');
     }
 
     public function go(){
@@ -30,19 +33,17 @@ class startController{
             $modelTest = new model_test();
             $modelTest->test();
 
-            /** @var $tabelleSession Sparrow */
-            $cols = array(
-                'data' => '123',
-                'expire' => 159
+            $sessionId = session_id();
+
+            $test = array(
+                'bla' => '111',
+                'blub' => 'abc'
             );
 
-            $tabelleSession = new table_session();
-            $query = $tabelleSession->insert($cols)->sql();
+            $_SESSION['auth'] = $test;
+            $wert = $_SESSION['auth'];
 
-            $kontrolle = $tabelleSession->execute();
-
-            // throw new toolException('Error', 10);
-            exit();
+            throw new toolException('Error', 10);
         }
         catch(Exception $e){
             throw $e;

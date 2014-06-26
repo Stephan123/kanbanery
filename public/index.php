@@ -11,9 +11,13 @@
 
 include_once('../vendor/autoload.php');
 
-Flight::route('/', function(){
+Flight::route('/', function()
+{
     _config();
     _connectDatabase();
+    _params();
+    _session();
+
     $pimple = _start();
     Flight::set('pimple',$pimple);
     include_once('../application/controller/startController.php');
@@ -25,11 +29,14 @@ Flight::route('/', function(){
 Flight::route('/@klasse/@aktion', function($klasse, $aktion){
     _config();
     _connectDatabase();
+    _params();
+    _session();
+
     $pimple = _start();
     Flight::set('pimple',$pimple);
-    include_once("../application/controller/controller_".$klasse.'.php');
+    include_once("../application/controller/".$klasse.'Controller.php');
 
-    $klasse = 'controller_'.$klasse;
+    $klasse = $klasse.'Controller';
     $myClass = new $klasse($pimple);
     $myClass->$aktion();
 });
@@ -79,4 +86,39 @@ function _connectDatabase(){
     Flight::set('databaseConnect',$databaseConnect);
 
     return;
+}
+
+function _params()
+{
+    $request = Flight::request();
+
+    $getObj = $request->query;
+    $get = $getObj->getData();
+
+    $postObj = $request->data;
+    $post = $postObj->getData();
+
+    $params = array_merge($post, $get);
+
+    Flight::set('params', $params);
+
+    return;
+}
+
+function _session(){
+    $databaseConnect = Flight::get('databaseConnect');
+    $toolSessionHandler = new toolSessionHandler();
+    $toolSessionHandler->setDbDetails($databaseConnect['hostname'], $databaseConnect['username'], $databaseConnect['password'], $databaseConnect['database']);
+    $toolSessionHandler->setDbTable('tbl_session');
+
+    session_set_save_handler(array($toolSessionHandler, 'open'),
+                             array($toolSessionHandler, 'close'),
+                             array($toolSessionHandler, 'read'),
+                             array($toolSessionHandler, 'write'),
+                             array($toolSessionHandler, 'destroy'),
+                             array($toolSessionHandler, 'gc'));
+
+    register_shutdown_function('session_write_close');
+
+    session_start();
 }
