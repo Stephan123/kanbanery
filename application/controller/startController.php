@@ -55,4 +55,27 @@ class startController{
 
     }
 
+    public function twig(){
+        try{
+            $data = array(
+                'name' => 'Krauß',
+                'vorname' => 'Stephan'
+            );
+
+            Flight::view()->display('start.html', $data);
+        }
+        catch(Exception $e){
+
+        }
+    }
+
+    public function log(){
+            try{
+               toolLogger::logTable('my Label', __FILE__, __LINE__, 'die Information');
+            }
+            catch(Exception $e){
+
+            }
+        }
+
 }

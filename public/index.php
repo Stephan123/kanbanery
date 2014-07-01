@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
 /**
  * Bootstrapping Project 'Kanbanery'
  *
@@ -11,10 +14,23 @@
 
 include_once('../vendor/autoload.php');
 
+// Temmplate Twig
+$loader = new Twig_Loader_Filesystem(dirname(__FILE__) . '/views');
+$twigConfig = array(
+    // 'cache'  =>  './cache/twig/',
+    // 'cache'  =>  false,
+    'debug' =>  true,
+);
+
+Flight::register('view', 'Twig_Environment', array($loader, $twigConfig), function($twig) {
+    $twig->addExtension(new Twig_Extension_Debug()); // Add the debug extension
+});
+
 Flight::route('/', function()
 {
     _config();
-    _connectDatabase();
+    // Benutzer ID in Datenbank
+    _connectDatabase(118);
     _params();
     _session();
 
@@ -28,7 +44,8 @@ Flight::route('/', function()
 
 Flight::route('/@klasse/@aktion', function($klasse, $aktion){
     _config();
-    _connectDatabase();
+        // Benutzer ID in Datenbank
+    _connectDatabase(118);
     _params();
     _session();
 
@@ -48,16 +65,6 @@ Flight::map('error', function(Exception $ex){
         $applicationStart = new errorController($pimple, $ex);
         $applicationStart->index();
 });
-
-
-// Register Smarty as the view class
-// Also pass a callback function to configure Smarty on load
-//Flight::register('view', 'Smarty', array(), function($smarty){
-//    $smarty->template_dir = './templates/';
-//    $smarty->compile_dir = './templates_c/';
-//    $smarty->config_dir = './config/';
-//    $smarty->cache_dir = './cache/';
-//});
 
 Flight::path('../config');
 Flight::path('../application');
@@ -80,10 +87,20 @@ function _start(){
     return $pimple;
 }
 
-function _connectDatabase(){
+function _connectDatabase($userId = false){
     $toolConfig = Flight::get('toolConfig');
     $databaseConnect = $toolConfig->getSection('datenbank');
     Flight::set('databaseConnect',$databaseConnect);
+
+    $sparrow = new Sparrow();
+    if($userId)
+        $sparrow->setDb($databaseConnect);
+        $sparrow->sql('set @userId = '.$userId);
+        $sparrow->execute();
+
+    Flight::register('sparrow', $sparrow);
+
+
 
     return;
 }

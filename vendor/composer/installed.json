@@ -2354,18 +2354,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/mikecao/flight.git",
-            "reference": "b10b294d8396eddbfe9d5e07e83c0885cbf19c68"
+            "reference": "0f49cc7abc41839be060af8a3c6862dd7b6451f4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/mikecao/flight/zipball/b10b294d8396eddbfe9d5e07e83c0885cbf19c68",
-            "reference": "b10b294d8396eddbfe9d5e07e83c0885cbf19c68",
+            "url": "https://api.github.com/repos/mikecao/flight/zipball/0f49cc7abc41839be060af8a3c6862dd7b6451f4",
+            "reference": "0f49cc7abc41839be060af8a3c6862dd7b6451f4",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2014-06-23 05:28:40",
+        "time": "2014-06-28 09:36:02",
         "type": "library",
         "installation-source": "source",
         "autoload": {
