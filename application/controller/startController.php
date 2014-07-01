@@ -1,6 +1,6 @@
 <?php
 
-class startController{
+class startController implements iToolCrud{
     protected $pimple = null;
     protected $params = null;
 
@@ -70,12 +70,22 @@ class startController{
     }
 
     public function log(){
-            try{
-               toolLogger::logTable('my Label', __FILE__, __LINE__, 'die Information');
-            }
-            catch(Exception $e){
-
-            }
+        try{
+           toolLogger::logTable('my Label', __FILE__, __LINE__, 'die Information');
         }
+        catch(Exception $e){
+
+        }
+    }
+
+    public function create(){
+        $test = 123;
+    }
+
+    public function read(){}
+
+    public function update(){}
+
+    public function delete(){}
 
 }
