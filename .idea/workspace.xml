@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d996f70b-b3ca-4c69-8919-311e8ec4695f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/iToolCrud.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controller/datenbankController.php" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\tool\config.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controller/startController.php" afterPath="$PROJECT_DIR$/application/controller/startController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.ini" afterPath="$PROJECT_DIR$/config/config.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kanbanery.iws" />
@@ -37,10 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="startController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="startController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="38" selection-start="1330" selection-end="1330" vertical-scroll-proportion="-0.0655106" vertical-offset="1254" max-vertical-offset="1920">
+            <state line="8" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1920">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datenbankController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controller/datenbankController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="26" selection-start="442" selection-end="442" vertical-scroll-proportion="0.8179959" vertical-offset="0" max-vertical-offset="740">
               <folding />
             </state>
           </provider>
@@ -49,7 +58,7 @@
       <file leaf-file-name="iToolCrud.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tool/iToolCrud.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="29" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="240">
+            <state line="5" column="29" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -85,7 +94,25 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.0" vertical-offset="1880" max-vertical-offset="2920">
+            <state line="94" column="0" selection-start="2257" selection-end="2257" vertical-scroll-proportion="-17.241379" vertical-offset="1380" max-vertical-offset="2920">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sparrow.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="658" column="30" selection-start="17472" selection-end="17480" vertical-scroll-proportion="-21.37931" vertical-offset="12540" max-vertical-offset="31120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="18" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
               <folding />
             </state>
           </provider>
@@ -132,7 +159,6 @@
         <option value="$PROJECT_DIR$/tool/config.php" />
         <option value="$PROJECT_DIR$/application/controller/start.php" />
         <option value="$PROJECT_DIR$/tool/class.ConfigMagik.php" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/tool/toolConfig.php" />
         <option value="$PROJECT_DIR$/application/table/sessions.php" />
         <option value="$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php" />
@@ -150,6 +176,8 @@
         <option value="$PROJECT_DIR$/tool/toolLogger.php" />
         <option value="$PROJECT_DIR$/tool/toolCrud.php" />
         <option value="$PROJECT_DIR$/application/controller/startController.php" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/application/controller/datenbankController.php" />
       </list>
     </option>
   </component>
@@ -208,10 +236,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1288" />
+    <option name="y" value="182" />
+    <option name="width" value="1152" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -323,6 +351,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unlight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparrow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -337,7 +401,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,9 +490,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kanbanery\application\controller" />
       <recent name="C:\xampp\htdocs\kanbanery\application\table" />
       <recent name="C:\xampp\htdocs\kanbanery\tool" />
-      <recent name="C:\xampp\htdocs\kanbanery\application\controller" />
       <recent name="C:\xampp\htdocs\kanbanery\application\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -458,8 +586,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1288" y="182" width="1152" height="720" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -467,7 +595,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23375931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4085923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3629301" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -538,19 +666,19 @@
           <line>81</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/controller/datenbankController.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="102" />
+      <option name="time" value="103" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="0" selection-start="4705" selection-end="4705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4140" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/model/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="18" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="620" />
@@ -700,9 +828,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Flight.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.33333334" vertical-offset="6" max-vertical-offset="1060">
-          <folding />
-        </state>
+        <state line="11" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.33333334" vertical-offset="6" max-vertical-offset="1060" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/model/Aktualisierer.php">
@@ -712,9 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="0" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.3140496" vertical-offset="2766" max-vertical-offset="10140">
-          <folding />
-        </state>
+        <state line="150" column="0" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.3140496" vertical-offset="2766" max-vertical-offset="10140" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/util/Collection.php">
@@ -725,11 +849,6 @@
     <entry file="file://$PROJECT_DIR$/application/model/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="358" selection-end="358" vertical-scroll-proportion="0.2231405" vertical-offset="219" max-vertical-offset="620" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="291" selection-end="299" vertical-scroll-proportion="0.48417133" vertical-offset="0" max-vertical-offset="537" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/session.php">
@@ -748,11 +867,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_database/2014_06_26.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3140" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3140" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controller/errorController.php">
@@ -786,14 +905,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/toolConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="386" column="19" selection-start="13977" selection-end="13977" vertical-scroll-proportion="14.296724" vertical-offset="300" max-vertical-offset="7960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="570" column="20" selection-start="14939" selection-end="14939" vertical-scroll-proportion="0.23506744" vertical-offset="11278" max-vertical-offset="31120" />
+        <state line="386" column="19" selection-start="13977" selection-end="13977" vertical-scroll-proportion="14.296724" vertical-offset="300" max-vertical-offset="7960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/table/log.php">
@@ -806,13 +918,6 @@
         <state line="8" column="39" selection-start="218" selection-end="218" vertical-scroll-proportion="0.30828518" vertical-offset="0" max-vertical-offset="519" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.0" vertical-offset="1880" max-vertical-offset="2920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tool/toolLogger.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="36" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="940">
@@ -822,14 +927,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/iToolCrud.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="240">
+        <state line="5" column="29" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="38" selection-start="1330" selection-end="1330" vertical-scroll-proportion="-0.0655106" vertical-offset="1254" max-vertical-offset="1920">
+        <state line="8" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="2257" selection-end="2257" vertical-scroll-proportion="-17.241379" vertical-offset="1380" max-vertical-offset="2920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/unlight/sparrow/sparrow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="658" column="30" selection-start="17472" selection-end="17480" vertical-scroll-proportion="-21.37931" vertical-offset="12540" max-vertical-offset="31120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/datenbankController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="442" selection-end="442" vertical-scroll-proportion="0.8179959" vertical-offset="0" max-vertical-offset="740">
           <folding />
         </state>
       </provider>
