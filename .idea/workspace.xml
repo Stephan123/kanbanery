@@ -6,6 +6,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d996f70b-b3ca-4c69-8919-311e8ec4695f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/transparancy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/transparency.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controller/transparencyController.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\adminer\adminer-4.1.0-mysql-de.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\ExampleSearchResults\Services\searchResults.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\ExampleSearchResults\Templates\SearchResult.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\ExampleSearchResults\search.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\OptionalBinding\example.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\SimpleExample\Templates\simple.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\SimpleExample\example.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\SimpleExample\img\joeBloggs.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\css\default.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\Examples\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\jquery-loadTemplate\jquery.loadTemplate-1.4.4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\jquery-loadTemplate\jquery.loadTemplate-1.4.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\loadTemplate.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\files\bindingOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\files\callback.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\files\error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\files\formatters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\files\general.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\testRunner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-template\tests\wru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\PagesCore\movies.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\PagesCore\moviesNoGlobals.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\PagesTmplPlus\movies1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\PagesTmplPlus\movies2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\PagesTmplPlus\movies3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\components\jquery-ui-1.8.1.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\components\jquery-ui-1.8.1.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\components\jquery.pager.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\css\jquery-ui-1.8.1.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\css\movies.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_diagonals-thick_75_f3d8d8_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_dots-small_65_a6a6a6_2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_flat_0_333333_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_flat_65_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_glass_55_fbf8ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_highlight-hard_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_highlight-hard_100_f6f6f6_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-bg_highlight-soft_15_cc0000_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-icons_004276_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-icons_cc0000_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\movies\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\resources\demos.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\resources\movielist.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\resources\syntaxhighlighter.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\resources\syntaxhighlighter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\resources\collapsed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\resources\empty.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\resources\expanded.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\resources\folder.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\resources\tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\resources\treeView.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\tabsTmpl.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\tabsWrap.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\tabsWrapImperative.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\tabsWrapNested.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\Interactive\treeView.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\basic.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\composition.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\conditional.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\each.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesCore\parameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesTmplPlus\basic.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesTmplPlus\composition.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\samplesTmplPlus\parameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\0_local-data-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\0_local-data.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\1_remote-data-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\1_remote-data.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\2_html-tag-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\2_html-tag.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\3_if-else-tag-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\3_if-else-tag.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\4_each-tag-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\4_each-tag.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\5_javascript-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\5_javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\6_hierarchical-data-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\0_tmpl-read-only\6_hierarchical-data.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\1_tmpl-interactive\0_accordion-switching-template-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\1_tmpl-interactive\0_accordion-switching-template.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\1_tmpl-interactive\1_tree-view-using-tmpl-tag-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\1_tmpl-interactive\1_tree-view-using-tmpl-tag.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\1_tmpl-interactive\2_tabs-using-wrap-tag-source.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\demos\step-by-step\1_tmpl-interactive\2_tabs-using-wrap-tag.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\jquery.tmpl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\jquery.tmpl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\jquery.tmplPlus.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\jquery.tmplPlus.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\tests\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\tests\qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\public\jquery\jquery-tmpl-master\tests\qunit.js" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\tool\config.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,7 +141,39 @@
     <favorites_list name="kanbanery" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="transparencyController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controller/transparencyController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transparancy.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/transparancy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="19" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-19.655172" vertical-offset="910" max-vertical-offset="1840">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transparency.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/views/transparency.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="45" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.9023199" vertical-offset="1621" max-vertical-offset="2540">
+              <folding>
+                <marker date="1404883236247" expanded="true" signature="962:976" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -101,6 +240,12 @@
         <option value="$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/step-by-step/0_tmpl-read-only/1_remote-data.html" />
         <option value="$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/step-by-step/0_tmpl-read-only/3_if-else-tag.html" />
         <option value="$PROJECT_DIR$/public/jquery/jquery-template/Examples/index.html" />
+        <option value="$PROJECT_DIR$/application/controller/transparancyController.php" />
+        <option value="$PROJECT_DIR$/application/controller/transparancy.html" />
+        <option value="$PROJECT_DIR$/public/views/transparancy.js" />
+        <option value="$PROJECT_DIR$/application/controller/transparencyController.php" />
+        <option value="$PROJECT_DIR$/public/views/transparancy.html" />
+        <option value="$PROJECT_DIR$/public/views/transparency.js" />
       </list>
     </option>
   </component>
@@ -162,7 +307,7 @@
     <option name="x" value="-1288" />
     <option name="y" value="48" />
     <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -237,7 +382,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adminer" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transparency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transparency-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transparency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transparency-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,8 +560,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\kanbanery\public\views" />
       <recent name="C:\xampp\htdocs\kanbanery\application\controller" />
+      <recent name="C:\xampp\htdocs\kanbanery\public\views" />
       <recent name="C:\xampp\htdocs\kanbanery\application\table" />
       <recent name="C:\xampp\htdocs\kanbanery\tool" />
       <recent name="C:\xampp\htdocs\kanbanery\application\model" />
@@ -396,8 +657,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="48" width="1296" height="1040" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1288" y="48" width="1296" height="1000" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -405,7 +666,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36672053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21728595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36949152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -624,11 +885,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_database/2014_06_26.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3140" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controller/errorController.php">
@@ -700,46 +961,14 @@
         <state line="3" column="71" selection-start="101" selection-end="101" vertical-scroll-proportion="0.07092199" vertical-offset="0" max-vertical-offset="846" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="57" selection-start="1359" selection-end="1404" vertical-scroll-proportion="-17.241379" vertical-offset="780" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="131" selection-end="131" vertical-scroll-proportion="0.09638554" vertical-offset="0" max-vertical-offset="830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/movies/PagesCore/movies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="45" selection-start="1356" selection-end="1388" vertical-scroll-proportion="0.40963855" vertical-offset="600" max-vertical-offset="7320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/step-by-step/0_tmpl-read-only/1_remote-data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="879" selection-end="879" vertical-scroll-proportion="0.38554215" vertical-offset="180" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/step-by-step/0_tmpl-read-only/0_local-data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="368" selection-end="368" vertical-scroll-proportion="0.19277108" vertical-offset="0" max-vertical-offset="920">
-          <folding />
-        </state>
+        <state line="4" column="31" selection-start="131" selection-end="131" vertical-scroll-proportion="0.09638554" vertical-offset="0" max-vertical-offset="830" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/phpseclib.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="192" selection-end="192" vertical-scroll-proportion="0.19277108" vertical-offset="0" max-vertical-offset="830">
-          <folding />
-        </state>
+        <state line="8" column="23" selection-start="192" selection-end="192" vertical-scroll-proportion="0.19277108" vertical-offset="0" max-vertical-offset="830" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controller/phpseclibController.php">
@@ -749,86 +978,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/step-by-step/0_tmpl-read-only/3_if-else-tag.html">
+    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="44" selection-start="1949" selection-end="1949" vertical-scroll-proportion="-39.310345" vertical-offset="0" max-vertical-offset="1420">
+        <state line="63" column="0" selection-start="1242" selection-end="1404" vertical-scroll-proportion="-10.344828" vertical-offset="960" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery/jquery-tmpl-master/jquery.tmpl.min.js">
+    <entry file="file://$PROJECT_DIR$/public/transparency/transparency-master/examples/backbone/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery/jquery-tmpl-master/jquery.tmpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="82" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.78014183" vertical-offset="0" max-vertical-offset="9800">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery/jquery-template/Examples/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="2140">
+        <state line="73" column="46" selection-start="1741" selection-end="1980" vertical-scroll-proportion="-19.655172" vertical-offset="890" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminer/adminer-4.1.0-mysql-de.php">
+    <entry file="file://$PROJECT_DIR$/application/controller/transparencyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16280">
+        <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/transparancy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="19" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-19.655172" vertical-offset="910" max-vertical-offset="1840">
           <folding>
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="SELECT SCHEM..SCHEMATA..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="SELECT TABLE..TABLES..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404418999004" expanded="true" signature="-1:-1" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/transparency.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="45" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.9023199" vertical-offset="1621" max-vertical-offset="2540">
+          <folding>
+            <marker date="1404883236247" expanded="true" signature="962:976" placeholder="..." />
           </folding>
         </state>
       </provider>
