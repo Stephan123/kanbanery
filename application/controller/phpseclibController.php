@@ -6,20 +6,26 @@ class phpseclibController{
 
     public function __construct(Pimple $pimple){
         $this->pimple = $pimple;
-
         $this->params = Flight::get('params');
     }
 
-    public function index(){
+    public function verschluesseln(){
         $psl = new phpSec\Core();
         $rand = $psl['crypt/rand'];
-        $wert = $rand->str(10);
+        $zufall = $rand->str(10);
+
+        /** @var $hash phpSec\Crypt\Hash */
+        $hash = $psl['crypt/hash'];
+        $key = $hash->create('stephan');
+        $info = $hash->getInfo($key);
 
         $data = array(
-            'wert' => $wert
+            'zufall' => $zufall,
+            'key' => $key,
+            'check' => $hash->check('stephan',$key)
         );
-
-        Flight::view()->display('start.html', $data);
+//
+//        Flight::view()->display('start.html', $data);
 
         Flight::view()->display('phpseclib.html', $data);
     }
