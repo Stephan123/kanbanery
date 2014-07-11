@@ -24,7 +24,6 @@ use flight\util\Collection;
  *   ajax - Whether the request is an AJAX request
  *   scheme - The server protocol (http, https)
  *   user_agent - Browser information
- *   body - Raw data from the request body
  *   type - The content type
  *   length - The content length
  *   query - Query string parameters
@@ -73,11 +72,6 @@ class Request {
      * @var string Browser information
      */
     public $user_agent;
-
-    /**
-     * @var mixed Raw data from the request body
-     */
-    public $body;
 
     /**
      * @var string Content type
@@ -146,13 +140,13 @@ class Request {
                 'ajax' => self::getVar('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest',
                 'scheme' => self::getVar('SERVER_PROTOCOL', 'HTTP/1.1'),
                 'user_agent' => self::getVar('HTTP_USER_AGENT'),
-                'body' => file_get_contents('php://input'),
                 'type' => self::getVar('CONTENT_TYPE'),
                 'length' => self::getVar('CONTENT_LENGTH', 0),
                 'query' => new Collection($_GET),
                 'data' => new Collection($_POST),
                 'cookies' => new Collection($_COOKIE),
                 'files' => new Collection($_FILES),
+                'json' => new Collection(),
                 'secure' => self::getVar('HTTPS', 'off') != 'off',
                 'accept' => self::getVar('HTTP_ACCEPT'),
                 'proxy_ip' => self::getProxyIpAddress()
@@ -178,6 +172,7 @@ class Request {
             $this->url = substr($this->url, strlen($this->base));
         }
 
+        // Default url
         if (empty($this->url)) {
             $this->url = '/';
         }
@@ -189,28 +184,29 @@ class Request {
         }
 
         // Check for JSON input
-        $json = array();
-        if ($this->body != '' && strpos($this->type, 'application/json') === 0) {
-            $json = json_decode($this->body, true);
+        if (strpos($this->type, 'application/json') === 0) {
+            $body = $this->getBody();
+
+            if ($body != '') {
+                $this->json->setData(json_decode($body, true));
+            }
         }
-        $this->json = new Collection($json);
     }
 
     /**
-     * Parse query parameters from a URL.
+     * Gets the body of the request.
      *
-     * @param string $url URL string
-     * @return array Query parameters
+     * @return string Raw HTTP request body
      */
-    public static function parseQuery($url) {
-        $params = array();
+    public static function getBody()
+    {
+        $method = self::getMethod();
 
-        $args = parse_url($url);
-        if (isset($args['query'])) {
-            parse_str($args['query'], $params);
+        if ($method == 'POST' || $method == 'PUT') {
+            return file_get_contents('php://input');
         }
 
-        return $params;
+        return '';
     }
 
     /**
@@ -267,5 +263,22 @@ class Request {
      */
     public static function getVar($var, $default = '') {
         return isset($_SERVER[$var]) ? $_SERVER[$var] : $default;
+    }
+
+    /**
+     * Parse query parameters from a URL.
+     *
+     * @param string $url URL string
+     * @return array Query parameters
+     */
+    public static function parseQuery($url) {
+        $params = array();
+
+        $args = parse_url($url);
+        if (isset($args['query'])) {
+            parse_str($args['query'], $params);
+        }
+
+        return $params;
     }
 }
