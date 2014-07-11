@@ -19,52 +19,65 @@ $loader = new Twig_Loader_Filesystem(dirname(__FILE__) . '/views');
 $twigConfig = array(
     // 'cache'  =>  './cache/twig/',
     // 'cache'  =>  false,
-    'debug' =>  true,
+    'debug' => true,
 );
 
-Flight::register('view', 'Twig_Environment', array($loader, $twigConfig), function($twig) {
-    $twig->addExtension(new Twig_Extension_Debug()); // Add the debug extension
-});
+Flight::register(
+    'view',
+    'Twig_Environment',
+    array( $loader, $twigConfig ),
+    function ($twig) {
+        $twig->addExtension(new Twig_Extension_Debug()); // Add the debug extension
+    }
+);
 
-Flight::route('/', function()
-{
-    _config();
-    // Benutzer ID in Datenbank
-    _connectDatabase(118);
-    _params();
-    _session();
-
-    $pimple = _start();
-    Flight::set('pimple',$pimple);
-    include_once('../application/controller/startController.php');
-
-    $applicationStart = new startController($pimple);
-    $applicationStart->index();
-});
-
-Flight::route('/@klasse/@aktion', function($klasse, $aktion){
-    _config();
+Flight::route(
+    '/',
+    function () {
+        _config();
         // Benutzer ID in Datenbank
-    _connectDatabase(118);
-    _params();
-    _session();
+        _connectDatabase(118);
+        _params();
+        _session();
 
-    $pimple = _start();
-    Flight::set('pimple',$pimple);
-    include_once("../application/controller/".$klasse.'Controller.php');
+        $pimple = _start();
+        Flight::set('pimple', $pimple);
+        include_once('../application/controller/startController.php');
 
-    $klasse = $klasse.'Controller';
-    $myClass = new $klasse($pimple);
-    $myClass->$aktion();
-});
+        $applicationStart = new startController($pimple);
+        $applicationStart->index();
+    }
+);
 
-Flight::map('error', function(Exception $ex){
+Flight::route(
+    '/@klasse/@aktion',
+    function ($klasse, $aktion) {
+        _config();
+        // Benutzer ID in Datenbank
+        _connectDatabase(118);
+        _params();
+        _session();
+
+        $pimple = _start();
+        Flight::set('pimple', $pimple);
+        include_once("../application/controller/" . $klasse . 'Controller.php');
+
+        $klasse = $klasse . 'Controller';
+        $myClass = new $klasse($pimple);
+        $myClass->$aktion();
+    }
+);
+
+Flight::map(
+    'error',
+    function (Exception $ex) {
         include_once('../application/controller/errorController.php');
 
         $pimple = Flight::get('pimple');
         $applicationStart = new errorController($pimple, $ex);
         $applicationStart->index();
-});
+    }
+);
 
 Flight::path('../config');
 Flight::path('../application');
@@ -74,33 +87,33 @@ Flight::start();
 
 /********* Bootstrap eigene Methoden **********/
 
-function _config(){
+function _config()
+{
     $toolConfig = new toolConfig('../config/config.ini', true, true);
-    Flight::set('toolConfig',$toolConfig);
+    Flight::set('toolConfig', $toolConfig);
 }
 
-function _start(){
+function _start()
+{
     $pimple = new Pimple();
 
-    $pimple['test'] = 'abcdef';
+    $pimple[ 'test' ] = 'abcdef';
 
     return $pimple;
 }
 
-function _connectDatabase($userId = false){
-    $toolConfig = Flight::get('toolConfig');
-    $databaseConnect = $toolConfig->getSection('datenbank');
-    Flight::set('databaseConnect',$databaseConnect);
+function _connectDatabase($userId = false)
+{
+    /** @var $config toolConfig */
+    $config = Flight::get('toolConfig');
+    $datenbankConfig = $config->getSection('datenbank');
 
-    $sparrow = new Sparrow();
-    if($userId)
-        $sparrow->setDb($databaseConnect);
-        $sparrow->sql('set @userId = '.$userId);
-        $sparrow->execute();
+    include('../redbean/rb.php');
+    R::setup('mysql:host=' . $datenbankConfig[ 'hostname' ] . ';dbname=' . $datenbankConfig[ 'database' ] . ',' . $datenbankConfig[ 'username' ] . ',' . $datenbankConfig[ 'password' ]);
+    $datensatz = R::load('test', 2);
 
-    Flight::register('sparrow', $sparrow);
-
-
+    var_dump($datensatz);
+    exit();
 
     return;
 }
@@ -122,18 +135,26 @@ function _params()
     return;
 }
 
-function _session(){
+function _session()
+{
     $databaseConnect = Flight::get('databaseConnect');
     $toolSessionHandler = new toolSessionHandler();
-    $toolSessionHandler->setDbDetails($databaseConnect['hostname'], $databaseConnect['username'], $databaseConnect['password'], $databaseConnect['database']);
+    $toolSessionHandler->setDbDetails(
+        $databaseConnect[ 'hostname' ],
+        $databaseConnect[ 'username' ],
+        $databaseConnect[ 'password' ],
+        $databaseConnect[ 'database' ]
+    );
     $toolSessionHandler->setDbTable('tbl_session');
 
-    session_set_save_handler(array($toolSessionHandler, 'open'),
-                             array($toolSessionHandler, 'close'),
-                             array($toolSessionHandler, 'read'),
-                             array($toolSessionHandler, 'write'),
-                             array($toolSessionHandler, 'destroy'),
-                             array($toolSessionHandler, 'gc'));
+    session_set_save_handler(
+        array( $toolSessionHandler, 'open' ),
+        array( $toolSessionHandler, 'close' ),
+        array( $toolSessionHandler, 'read' ),
+        array( $toolSessionHandler, 'write' ),
+        array( $toolSessionHandler, 'destroy' ),
+        array( $toolSessionHandler, 'gc' )
+    );
 
     register_shutdown_function('session_write_close');
 

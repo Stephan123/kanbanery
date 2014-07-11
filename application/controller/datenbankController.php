@@ -5,7 +5,6 @@ class datenbankController implements iToolCrud{
     protected $params = null;
 
     public function __construct(Pimple $pimple){
-        $this->pimple = $pimple;
         $this->params = Flight::get('params');
     }
 
@@ -15,10 +14,9 @@ class datenbankController implements iToolCrud{
 
     public function read(){
         try{
-            $tabelleLog = new table_log();
-            $rows = $tabelleLog->many();
+            $tabelleTest = R::load('test', 3);
 
-            var_dump($rows);
+            $test = 123;
         }
         catch(Exception $e){
 
