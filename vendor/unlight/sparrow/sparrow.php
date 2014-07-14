@@ -6,7 +6,7 @@
  * @license   MIT, http://www.opensource.org/licenses/mit-license.php
  */
 class Sparrow {
-    public $table;
+    protected $table;
     protected $where;
     protected $joins;
     protected $order;
