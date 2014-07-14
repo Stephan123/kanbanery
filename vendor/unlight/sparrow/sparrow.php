@@ -44,7 +44,8 @@ class Sparrow {
     /**
      * Class constructor.
      */
-    public function __construct() {
+    public function __construct(){
+
     }
 
     /*** Core Methods ***/

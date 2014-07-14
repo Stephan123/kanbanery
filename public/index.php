@@ -31,8 +31,9 @@ Flight::route('/', function()
     _config();
     // Benutzer ID in Datenbank
     _connectDatabase(118);
-    _params();
+    _params('start', 'index');
     _session();
+    _auth();
 
     $pimple = _start();
     Flight::set('pimple',$pimple);
@@ -46,8 +47,9 @@ Flight::route('/@klasse/@aktion', function($klasse, $aktion){
     _config();
         // Benutzer ID in Datenbank
     _connectDatabase(118);
-    _params();
+    _params($klasse, $aktion);
     _session();
+    _auth();
 
     $pimple = _start();
     Flight::set('pimple',$pimple);
@@ -89,25 +91,25 @@ function _start(){
 
 function _connectDatabase($userId = false){
     $toolConfig = Flight::get('toolConfig');
+
     $databaseConnect = $toolConfig->getSection('datenbank');
     Flight::set('databaseConnect',$databaseConnect);
 
     $sparrow = new Sparrow();
-    if($userId){
-        $sparrow->setDb($databaseConnect);
-        $sparrow->sql('set @userId = '.$userId);
-        $sparrow->execute();
-    }
+    $sparrow->setDb($databaseConnect);
 
     Flight::register('sparrow', $sparrow);
-
-
 
     return;
 }
 
-function _params()
+function _params($klasse, $aktion)
 {
+    $ort = array(
+        'controller' => $klasse,
+        'action' => $aktion
+    );
+
     $request = Flight::request();
 
     $getObj = $request->query;
@@ -116,7 +118,7 @@ function _params()
     $postObj = $request->data;
     $post = $postObj->getData();
 
-    $params = array_merge($post, $get);
+    $params = array_merge($post, $get, $ort);
 
     Flight::set('params', $params);
 
@@ -139,4 +141,13 @@ function _session(){
     register_shutdown_function('session_write_close');
 
     session_start();
+}
+
+function _auth(){
+    $_SESSION['userId'] = 118;
+    $_SESSION['companyId'] = 25;
+    $_SESSION['languageId'] = 2;
+    $_SESSION['rolleId'] = 5;
+
+    return;
 }

@@ -7,8 +7,8 @@ class toolException extends Exception{
 
     public function __construct($message, $code, $previous = null){
         $request = Flight::request();
-        $this->method = $request->query['method'];
-        $this->url = $request->query['url'];
+        $this->method = $request->method;
+        $this->url = $request->url;
 
         $session = array();
         foreach($_SESSION as $namespace => $variables){
