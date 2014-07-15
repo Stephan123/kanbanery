@@ -19,5 +19,14 @@ class table_haupttabelle extends Sparrow
 
         return $rows;
     }
+
+    public function findUserData(){
+        $sql = "call userData()";
+
+        // $result = $this->sql($sql)->execute();
+        $result = $this->sql($sql)->many();
+
+        $test = 123;
+    }
 } // end class
  
