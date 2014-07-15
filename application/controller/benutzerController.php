@@ -12,7 +12,7 @@ class benutzerController implements iToolCrud
 
             // Zugriffskontrolle
             $zugriff  = array(
-                'index' => 20,
+                'index' => 5,
                 'create' => 6,
                 'read' => 4,
                 'update' => 4,
