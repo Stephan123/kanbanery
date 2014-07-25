@@ -1,4 +1,5 @@
 <?php
+// namespace model_Blub;
 
 trait model_Blub
 {
@@ -8,5 +9,9 @@ trait model_Blub
 
         return;
     }
+
+    public function doppelt(){
+            echo "doppelt 2";
+        }
 }
  

@@ -4,9 +4,7 @@ class traitController{
     protected $params = null;
 
     use model_Bla;
-    use model_Blub{
-        testBlub as private test;
-    }
+    use model_Blub;
 
     public function __construct(Pimple $pimple){
         $this->pimple = $pimple;
@@ -17,8 +15,8 @@ class traitController{
     {
         try{
             echo '<hr> Test Trait';
-            $this->testBla();
-            $this->test();
+            // $this->testBla();
+            // $this->test();
         }
         catch(Exception $e){
             throw $e;

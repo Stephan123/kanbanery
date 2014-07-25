@@ -1,4 +1,5 @@
 <?php
+// namespace model_bla;
 
 trait model_Bla
 {
@@ -7,6 +8,10 @@ trait model_Bla
         echo '<hr> Function testBla';
 
         return;
+    }
+
+    public function doppelt(){
+        echo "doppelt 1";
     }
 }
  

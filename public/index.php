@@ -55,6 +55,11 @@ Flight::route('/@klasse/@aktion', function($klasse, $aktion){
     Flight::set('pimple',$pimple);
     include_once("../application/controller/".$klasse.'Controller.php');
 
+    if(strstr($aktion, '-')){
+        $aktionTeile = explode('-',$aktion);
+        $aktion = $aktionTeile[0].ucfirst($aktionTeile[1]);
+    }
+
     $klasse = $klasse.'Controller';
     $myClass = new $klasse($pimple);
     $myClass->$aktion();
@@ -71,6 +76,7 @@ Flight::map('error', function(Exception $ex){
 Flight::path('../config');
 Flight::path('../application');
 Flight::path('../tool');
+// Flight::path('../application/model');
 
 Flight::start();
 
