@@ -1,7 +1,7 @@
 <?php
-// namespace model_bla;
+namespace bla;
 
-trait model_Bla
+trait bla
 {
     public function testBla()
     {

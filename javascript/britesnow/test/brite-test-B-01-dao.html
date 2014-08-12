@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>briteUITest - brite.dao</title>
+
+		<!-- Generic Test Includes -->
+		<link rel="stylesheet" href="css/sTestHelper.css"/>
+		<script type="text/javascript" src="../js-dependencies/jquery.js" ></script>
+		<script type="text/javascript" src="js/sTestHelper.js" ></script>
+		<!-- /Generic Test Includes -->
+
+		<!-- This is just for internal testing. In dev or prod, use brite-snapshot.js or brite.js (or the .min equivalent) -->
+		<script type="text/javascript" src="../src/js/brite.core.js" ></script>
+		<script type="text/javascript" src="../src/js/brite.dao.js" ></script>
+
+
+		<script type="text/javascript" src="../extra/brite.InMemoryDaoHandler.js" ></script>
+		
+		<style type="text/css">
+			.action{
+				color: #5588bb;
+				cursor: pointer;
+			}
+			
+			#userList{
+				width: 400px;
+			}
+			#userList li{
+				list-style: none;
+				margin-bottom: 3px;
+				border: solid 1px #aaaaaa;
+				padding: 3px 5px;
+				
+			}
+			
+			#userList li .name{
+				display: inline-block;
+				margin-right: 10px;
+			}
+			
+			#userList li .city{
+				color: #777777;
+			}
+			
+			#userList li .del{
+				font-family: courier;
+				font-size: 14px;
+				float: right;
+				cursor: pointer;
+				color: #555555;
+			}
+		
+		</style>
+
+    </head>
+    <body>
+    	<div class="sTestSection">
+	        <h2>Simple User Dao CRUD using the brite Deferred Data Manager (brite.dao)</h2>
+
+			<div class="sTestSrc sTestShowSrc">
+				
+				<h3>Create new User (<span class='action' id="removeAll">Remove All</span> )</h3>
+				<div>User Name: <input id="userNameIpt" type="text" /> City: <input id="userCityIpt" type="text" /> <button id="userCreateBut">Create</button></div>
+				
+	
+				<h3>User List</h3>
+				<ul id="userList">
+				</ul>
+				
+				<!-- Simple User CRUD UI Logic -->
+				<script type="text/javascript">
+				
+				// --------- CustomDao extending Brite.InMemoryDaoHandler --------- //
+				// extending the brite.InMemoryDaoHandler
+				//doing an extension
+        function CustomDao(seed,opts){
+          CustomDao._super.constructor.call(this,seed,opts);
+        };
+        brite.inherit(CustomDao,brite.InMemoryDaoHandler);
+        
+        // Custom DAO Method
+        CustomDao.prototype.removeAll = function(){
+          this._dataDic = {};
+        }
+        
+        // tell which custom methods is a datachange
+        /*
+        CustomDao._dataChangeMethods = {removeAll:true};
+        CustomDao.prototype.isDataChange = function(methodName){
+          if (CustomDao._dataChangeMethods[methodName]){
+            return true;
+          }          
+        }
+        */
+        // --------- /CustomDao extending Brite.InMemoryDaoHandler --------- //
+				
+				
+        var usersSeed = [{id:"001",name:"Mike Donavan",city:"San Francisco"},
+                         {id:"002",name:"Jennifer Patrick",city:"Los Angeles"}];
+                         
+        var userDao = brite.registerDao(new CustomDao("User",usersSeed));
+				
+				$(function(){
+					var $userList = $("#userList");
+
+					// Note: there is not DAO for Task, but just test if multiple binding does not break
+					brite.dao.onDataChange("User",function(event){
+					  updateUserListDiv();
+					},"namespace1"); 
+					
+					
+          brite.dao.onDataChange("User, Task","create, remove, removeAll",function(event){
+            console.log("dao.onDataChange: " + event.daoEvent.action, event.daoEvent.result);
+          },"namespace1"); 
+          
+					brite.dao.onResult("User",function(event){
+					  console.log("dao.onResult " + event.daoEvent.action, event.daoEvent.result);
+					},"namespace1");
+					
+					brite.dao.onDao(function(event){
+					  console.log("dao.onDao : " + event.daoEvent.action);
+					  if (event.daoEvent.action === "resetStore"){
+              console.log("Custom DAO method resetStore called: Refreshing UI since user store has been reset");
+              updateUserListDiv();        
+					  }
+					},"namespace1");
+					
+										
+					// --- Delete User --- //
+					$userList.delegate(".del","click",function(){
+					  
+						// get the user objRef that this html element belong to.
+						var objRef = $(this).bEntity("User");
+						if (objRef){
+						  userDao.delete(objRef.id);
+						}
+					});
+					// --- /Delete User --- //
+					
+					// --- Create User --- //
+					$("#userCreateBut").click(function(){
+						userDao.create({name: $("#userNameIpt").val(),
+											 city: $("#userCityIpt").val()});
+						
+						//clean the input and focus
+						$("#userNameIpt").val("").focus();
+						$("#userCityIpt").val("");
+						
+					});
+					// --- /Create User --- //
+					$("#removeAll").click(function(){
+					  // call the custom DAO method
+					  userDao.removeAll();
+					});
+					
+					
+          // Initialize the UI component
+          updateUserListDiv();
+          					
+					
+				});
+				
+				function updateUserListDiv(){
+					userDao.list().done(function(userList){
+						var user, 
+					    i,
+						$userList = $("#userList");
+					
+						//clean the list
+						$userList.empty();
+						
+						for (i = 0; i < userList.length; i++) {
+							user = userList[i];
+							$li = $("<li></li>");
+							$li.attr("data-entity", "User");
+							$li.attr("data-entity-id", user.id);
+							
+							//Note: The 'name' and 'city' class are just for css layout
+							//      The 'del' class is use for delegate
+							$li.append("<span class='name'>" + user.name + "</span>" +
+							           "<span class='city'>(" + user.city + ")</span>" + 
+									   "<span class='del'>x</span>" );
+							$userList.append($li);
+						}						
+					});
+				}
+				</script>
+				<!--  /Simple User CRUD UI Logic -->
+				
+
+				
+			</div>			
+		</div> 
+    </body>
+</html>

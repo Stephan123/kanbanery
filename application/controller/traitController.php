@@ -3,7 +3,8 @@ class traitController{
     protected $pimple = null;
     protected $params = null;
 
-    use model_Bla;
+    // use model_Bla;
+    // use bla\bla;
     use model_Blub;
 
     public function __construct(Pimple $pimple){

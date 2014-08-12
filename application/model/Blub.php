@@ -1,5 +1,4 @@
 <?php
-// namespace model_Blub;
 
 trait model_Blub
 {
