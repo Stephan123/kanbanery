@@ -6,210 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d996f70b-b3ca-4c69-8919-311e8ec4695f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controller/handlebarsController.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\dummy.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\component.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\extra\brite.InMemoryDaoHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\extra\gtx.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\js-dependencies\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\js-dependencies\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\handlebars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\handlebars.runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\jsrender.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\lesshat\lesshat.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\prettify\prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Demo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Dock.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Draw.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawContent.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawLayersPanel.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawSide.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawToolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Info.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\app-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\app-main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\circle.cur" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\app-ico-info.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\bgPat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\demo-draw-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\demo-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\pen.cur" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\square.cur" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\data\draw-sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\images\app-ico-draw.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\images\app-ico-info.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Demo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Dock.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Draw.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawContent.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawLayersPanel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawSide.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawToolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Info.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Window.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\canvas-toBlob.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\demo-commons.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\demo-data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\jsrender.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Demo.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Dock.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Draw.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawContent.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawLayersPanel.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawSide.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawToolbar.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Info.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Window.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\ProjectEdit.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\content-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\logo-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\nav-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\ProjectEdit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\ProjectEdit.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\src\js\brite.core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\src\js\brite.dao.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\src\js\brite.event.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-01-helloworld.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-02-HelloComponent.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-03-dialogPrompt.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-04-viewEvents.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-05-parentEvents.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-B-01-dao.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-B-02-inMemoryDao.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-C-01-btap.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-C-02-bdrag.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-C-03-btransitionend.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-D-01-ua.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-U-inherit.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-U-utils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-Z-Experiments-01-transition.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\css\DialogPrompt.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\css\sTestHelper.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\DialogPrompt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\HelloComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\sTestHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\testunit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\tmpl\DialogPrompt.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\tmpl\HelloComponent.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\xp\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\xp\brite.IdbDaoHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\xp\brite.xp.SQLiteDaoHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\external\jquery\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.theme.min.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\backend\backend_de.php" afterPath="$PROJECT_DIR$/_datenbank_admin/backend_de.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\public\_htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\spec\abrufenTaskInfoTest.php" afterPath="$PROJECT_DIR$/_spec/abrufenTaskInfoTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kanbanery.iml" afterPath="$PROJECT_DIR$/.idea/kanbanery.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controller/startController.php" afterPath="$PROJECT_DIR$/application/controller/startController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kanbanery.iws" />
@@ -258,8 +55,8 @@
       <file leaf-file-name="handlebarsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controller/handlebarsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35443038" vertical-offset="128" max-vertical-offset="918">
-              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.25468165" vertical-offset="306" max-vertical-offset="918">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="e#6#156#0#PHP" expanded="true" />
               </folding>
@@ -270,8 +67,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6538463" vertical-offset="677" max-vertical-offset="2856">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.6923075" vertical-offset="302" max-vertical-offset="2822">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -280,7 +77,7 @@
       <file leaf-file-name="Engine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8076925" vertical-offset="2271" max-vertical-offset="8619">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2271" max-vertical-offset="8619">
               <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding />
             </state>
@@ -300,7 +97,7 @@
       <file leaf-file-name="startController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8076925" vertical-offset="231" max-vertical-offset="1632">
+            <state vertical-scroll-proportion="-6.8461537" vertical-offset="230" max-vertical-offset="1632">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -381,8 +178,8 @@
         <option value="$PROJECT_DIR$/application/controller/traitController.php" />
         <option value="$PROJECT_DIR$/application/model/Blub.php" />
         <option value="$PROJECT_DIR$/application/controller/startController.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/application/controller/handlebarsController.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
   </component>
@@ -492,40 +289,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kanbanery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -559,6 +322,58 @@
             <PATH_ELEMENT USER_OBJECT="public">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -624,10 +439,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3d3336a3-1e16-4049-9d73-207602481297" server_name="kanbanery">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3d3336a3-1e16-4049-9d73-207602481297" server_name="kanbanery">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
       <method />
     </configuration>
     <configuration default="false" name="Sigle Test" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/spec/abrufenTaskInfoTest.php">
@@ -716,26 +536,26 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3064133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24813631" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27948305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2835218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3056872" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -758,9 +578,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25772098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -813,31 +633,6 @@
           <line>24</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/handlebarsController.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/handlebarsController.php</url>
-          <line>37</line>
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/handlebarsController.php</url>
-          <line>41</line>
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public/index.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/startController.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="196" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -847,11 +642,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1632">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/model/Bla.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,15 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="204">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8076925" vertical-offset="231" max-vertical-offset="1632">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,16 +972,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8076925" vertical-offset="2271" max-vertical-offset="8619">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2271" max-vertical-offset="8619">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6538463" vertical-offset="677" max-vertical-offset="2856">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1200,14 +982,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="26.368015" vertical-offset="0" max-vertical-offset="13838">
           <caret line="805" column="318" selection-start-line="805" selection-start-column="318" selection-end-line="805" selection-end-column="318" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6923075" vertical-offset="302" max-vertical-offset="2822">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8461537" vertical-offset="230" max-vertical-offset="1632">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controller/handlebarsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35443038" vertical-offset="128" max-vertical-offset="918">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.25468165" vertical-offset="306" max-vertical-offset="918">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="e#6#156#0#PHP" expanded="true" />
           </folding>

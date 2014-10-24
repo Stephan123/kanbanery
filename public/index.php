@@ -26,8 +26,6 @@ Flight::register('view', 'Twig_Environment', array($loader, $twigConfig), functi
     $twig->addExtension(new Twig_Extension_Debug()); // Add the debug extension
 });
 
-$test = 123;
-
 // Erstaufruf System
 Flight::route('/', function()
 {
