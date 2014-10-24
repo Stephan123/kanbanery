@@ -22,28 +22,28 @@ class startController implements iToolCrud{
     public function index()
     {
         try{
-            echo 'Action: index';
+            echo 'Controller: Start , Action: index';
 
-            /** @var $toolConfig toolConfig */
-            $toolConfig = Flight::get('toolConfig');
-            $name = $toolConfig->get('name', 'adresse');
-            // var_dump($toolConfig);
-            $vars = $toolConfig->getSection('adresse');
-
-            $modelTest = new model_test();
-            $modelTest->test();
-
-            $sessionId = session_id();
-
-            $test = array(
-                'bla' => '111',
-                'blub' => 'abc'
-            );
-
-            $_SESSION['auth'] = $test;
-            $wert = $_SESSION['auth'];
-
-            throw new toolException('Error', 10);
+//            /** @var $toolConfig toolConfig */
+//            $toolConfig = Flight::get('toolConfig');
+//            $name = $toolConfig->get('name', 'adresse');
+//            // var_dump($toolConfig);
+//            $vars = $toolConfig->getSection('adresse');
+//
+//            $modelTest = new model_test();
+//            $modelTest->test();
+//
+//            $sessionId = session_id();
+//
+//            $test = array(
+//                'bla' => '111',
+//                'blub' => 'abc'
+//            );
+//
+//            $_SESSION['auth'] = $test;
+//            $wert = $_SESSION['auth'];
+//
+//            throw new toolException('Error', 10);
         }
         catch(Exception $e){
             throw $e;

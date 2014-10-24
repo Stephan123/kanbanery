@@ -26,14 +26,17 @@ Flight::register('view', 'Twig_Environment', array($loader, $twigConfig), functi
     $twig->addExtension(new Twig_Extension_Debug()); // Add the debug extension
 });
 
+$test = 123;
+
+// Erstaufruf System
 Flight::route('/', function()
 {
     _config();
     // Benutzer ID in Datenbank
-    _connectDatabase(118);
+    // _connectDatabase(118);
     _params('start', 'index');
-    _session();
-    _auth();
+    // _session();
+    // _auth();
 
     $pimple = _start();
     Flight::set('pimple',$pimple);
@@ -43,13 +46,14 @@ Flight::route('/', function()
     $applicationStart->index();
 });
 
+// Aufruf Controller und Action
 Flight::route('/@klasse/@aktion', function($klasse, $aktion){
     _config();
         // Benutzer ID in Datenbank
-    _connectDatabase(118);
+    // _connectDatabase(118);
     _params($klasse, $aktion);
-    _session();
-    _auth();
+    // _session();
+    // _auth();
 
     $pimple = _start();
     Flight::set('pimple',$pimple);
