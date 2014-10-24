@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test Handlebars</title>
+
+    <link rel="stylesheet" href="/jqueryUi/jquery-ui.css">
+
+    <script type="text/javascript" src="/javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="/jqueryUi/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="/javascript/handlebars-v2.0.0.js"></script>
+    <script type="text/javascript" src="/javascript/handlebars_delimiter.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Steuerung -->
+    <script type="text/javascript">
+
+
+        // Tabs
+        $(function() {
+            $( "#tabs" ).tabs();
+        });
+
+        $(document).ready(function()
+        {
+            // EXAMPLE to change the delimiters to '[' , ']'
+            Handlebars.setDelimiter('[',']');
+
+            var data = {
+                region: 'Sachsen',
+                AO_City_ID: '5',
+                AO_City: 'Langenweißbach',
+                aktiv: 2,
+                bettensteuer: 'Bettensteuer'
+            };
+
+            // Teilbereich 2
+            var teil2Str = $("#teil2").html();
+            var template2 = Handlebars.compile(teil2Str);
+            $("#teilbereich2").html(template2);
+
+            var STUDENT_METHOD ={
+
+                handlerData:function(resJSON)
+                {
+                    var templateSource   = $("#student-template").html(),
+                            template = Handlebars.compile(templateSource),
+                            studentHTML = template(resJSON);
+
+                    $('#my-container').html(studentHTML);
+
+                },
+                loadStudentData : function(){
+
+                    $.ajax({
+                        url:"http://localhost:63342/HandleBarDemo/data/studentData.json",
+                        method:'get',
+                        success:this.handlerData
+
+                    })
+                }
+            };
+
+            // Teilbereich 3
+            var teil3Str = $("#teil3").html();
+            var template3 = Handlebars.compile(teil3Str);
+            $("#teilbereich3").html(template3(data));
+        });
+
+    </script>
+</head>
+<body>
+    <h3>Grundidee Template</h3>
+
+    <div id="tabs" style="width: 1200px;">
+        <ul>
+            <li><a href="#tabs-1">Tab 1</a></li>
+            <li><a href="#tabs-2">Tab 2</a></li>
+        </ul>
+
+        <!-- Tab 1 -->
+        <div id="tabs-1" style="min-height: 800px;">
+            <!-- Teilbereich 1 -->
+            <h3>Teilbereich 1 , Stammelement</h3>
+            <div id="teilbereich1" style="width: 600px; height: 600px; border: red 1px solid; float: left;">
+                {% include 'forms/formular1.hbs' %}
+            </div>
+
+            <!-- Teilbereich 2 -->
+            <h3>Teilbereich 2</h3>
+            <div id="teilbereich2" style="width: 500px; height: 300px; border: solid #008000 1px; float:left;">
+               &nbsp;
+            </div>
+
+            <!-- Teilbereich 3 -->
+            <h3>Teilbereich 3</h3>
+            <div id="teilbereich3" style="width: 500px; height: 300px; border: solid brown 1px; float:left;">
+                &nbsp;
+            </div>
+
+
+            <!-- Subtemplate -->
+            <script id="teil2" type="text/x-handlebars-template">
+                <form id="form2" name="form2" method="post" action="/handlebars/dataForm2">
+                    {% include 'forms/formular2.hbs' %}
+                    <input type="button" id="holen" value="holen">
+                </form>
+            </script>
+
+            <script id="teil3" type="text/x-handlebars-template">
+                <form id="form1" name="form1" method="post" action="asdasd">
+                    <label for="AO_City_ID">Ao City Id</label><input type="text" name="AO_City_ID" value="[[AO_City_ID]]" id="AO_City_ID" />
+                    <br class="clear" />
+                    <label for="AO_City">Ao City</label><input type="text" name="AO_City" value="[[AO_City]]" id="AO_City" />
+                    <br class="clear" />
+                    <label for="aktiv">Aktiv</label><input type="text" name="aktiv" value="[[aktiv]]" id="aktiv" />
+                    <br class="clear" />
+                    <label for="bettensteuer">Bettensteuer</label><input type="text" name="bettensteuer" value="[[bettensteuer]]" id="bettensteuer" />
+                    <br class="clear" />
+                    <label for="region">Region</label><input type="text" name="region" value="[[region]]" id="region" />
+                    <br class="clear" />
+                </form>
+            </script>
+        </div>
+
+        <!-- Tab 2 -->
+        <div id="tabs-1" style="min-height: 800px;">
+            <!-- Teilbereich 1 -->
+            <div id="teilbereich1" style="width: 600px; height: 600px; border: red 1px solid; float: left;">
+                2 - 1
+            </div>
+
+            <!-- Teilbereich 2 -->
+            <div id="teilbereich2" style="width: 500px; height: 300px; border: solid #008000 1px; float:left;">
+                2 - 2
+            </div>
+
+            <!-- Teilbereich 3 -->
+            <div id="teilbereich3" style="width: 500px; height: 300px; border: solid brown 1px; float:left;">
+                2 - 3
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
