@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Test Handlebars</title>
-
-    <link rel="stylesheet" href="/jqueryUi/jquery-ui.css">
+    <title>Formulare und Tabelle</title>
 
     <script type="text/javascript" src="/javascript/jquery-1.11.1.js"></script>
-    <script type="text/javascript" src="/jqueryUi/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
 
     <script type="text/javascript" src="/javascript/handlebars-v2.0.0.js"></script>
 
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/eggplant/jquery-ui.css">
+
 
     <!-- Steuerung -->
     <script type="text/javascript">
@@ -46,43 +46,8 @@
                 $("#teilbereich2").html(' ');
             });
 
-            // Tabelle
-            var dataTable = [
-                { n: 'a' },
-                { n: 'b' },
-                { n: 'c' },
-                { n: 'd' },
-                { n: 'e' },
-                { n: 'f' },
-                { n: 'g' },
-                { n: 'h' },
-                { n: 'i' },
-                { n: 'j' },
-                { n: 'k' },
-                { n: 'l' },
-                { n: 'm' },
-                { n: 'n' },
-                { n: 'o' }
-            ];
-
-            function transform ( arr ) {
-                var result = [], temp = [];
-                arr.forEach( function ( elem, i ) {
-                    if ( i > 0 && i % 5 === 0 ) {
-                        result.push( temp );
-                        temp = [];
-                    }
-                    temp.push( elem );
-                });
-                if ( temp.length > 0 ) {
-                    result.push( temp );
-                }
-                return result;
-            }
-
-            $("#tabelleButton").on("click",function(e){
-                // result = transform( dataTable );
-
+            $("#tabelleButton").on("click",function(e)
+            {
                 $.ajax({
                     url: '/handlebars/dataGrid/',
                     type: 'post',
@@ -91,28 +56,19 @@
                         blub: 'blub'
                     }),
                     dataType: 'json',
-                    success: function(result){
-//                        var source   = $("#subtemplat2").html();
-//                        var template = Handlebars.compile(source);
-//                        $('#teilbereich2').html(template(result));
-
+                    success: function(result)
+                    {
                         var source   = $("#subtabelle").html();
                         var template = Handlebars.compile(source);
                         $('#tabelle').html(template(result));
                     }
                 });
-
-
             });
-
-
         });
 
     </script>
 </head>
 <body>
-    <h3>Grundidee Template</h3>
-
     <div id="tabs" style="width: 1200px;">
         <ul>
             <li><a href="#tabs-1">Tab 1</a></li>
