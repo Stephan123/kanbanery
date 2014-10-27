@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test Handlebars</title>
+
+    <link rel="stylesheet" href="/jqueryUi/jquery-ui.css">
+
+    <script type="text/javascript" src="/javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="/jqueryUi/jquery-ui.js"></script>
+
+    <script>
+        $(function() {
+            $( "#tabs" ).tabs();
+        });
+    </script>
+</head>
+<body>
+    <div id="tabs" style="width: 1200px;">
+        <ul>
+            <li><a href="#tabs-1">Tab 1</a></li>
+            <li><a href="#tabs-2">Tab 2</a></li>
+        </ul>
+
+        <!-- Tab 1 -->
+        <div id="tabs-1" style="min-height: 800px;">
+            <!-- Teilbereich 1 -->
+            <div id="teilbereich1" style="width: 600px; height: 600px; border: red 1px solid; float: left;">
+                1 - 1
+            </div>
+
+            <!-- Teilbereich 2 -->
+            <div id="teilbereich2" style="width: 500px; height: 300px; border: solid #008000 1px; float:left;">
+                1 - 2
+            </div>
+
+            <!-- Teilbereich 3 -->
+            <div id="teilbereich3" style="width: 500px; height: 300px; border: solid brown 1px; float:left;">
+                1 - 3
+            </div>
+        </div>
+
+        <!-- Tab 2 -->
+        <div id="tabs-1" style="min-height: 800px;">
+            <!-- Teilbereich 1 -->
+            <div id="teilbereich1" style="width: 600px; height: 600px; border: red 1px solid; float: left;">
+                2 - 1
+            </div>
+
+            <!-- Teilbereich 2 -->
+            <div id="teilbereich2" style="width: 500px; height: 300px; border: solid #008000 1px; float:left;">
+                2 - 2
+            </div>
+
+            <!-- Teilbereich 3 -->
+            <div id="teilbereich3" style="width: 500px; height: 300px; border: solid brown 1px; float:left;">
+                2 - 3
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>

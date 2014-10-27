@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/_spec/abrufenTaskInfoTest.php" line="57" mnemonic="A" />
-    <bookmark url="file://$PROJECT_DIR$/_spec/abrufenTaskInfoTest.php" line="107" mnemonic="B" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d996f70b-b3ca-4c69-8919-311e8ec4695f" name="Default" comment="">
-<<<<<<< HEAD
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/forms/formular1.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/forms/formular2.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/grids/grid1.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/handlebars-v2.0.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/handlebars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/bausteine/handlebars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/jquery-1.11.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jqueryUi/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\vendor\doctrine\annotations\.gitignore" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\vendor\doctrine\annotations\.travis.yml" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\vendor\doctrine\annotations\LICENSE" afterPath="" />
@@ -2526,212 +2565,9 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\vendor\watoki\factory\src\watoki\factory\Provider.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\vendor\watoki\factory\src\watoki\factory\providers\DefaultProvider.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\vendor\watoki\factory\src\watoki\factory\providers\MinimalProvider.php" afterPath="" />
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controller/handlebarsController.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\dummy.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\component.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\extra\brite.InMemoryDaoHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\extra\gtx.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\js-dependencies\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\js-dependencies\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\handlebars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\handlebars.runtime.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\jsrender.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\lesshat\lesshat.less" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\prettify\prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\others\prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Demo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Dock.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Draw.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawContent.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawLayersPanel.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawSide.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\DrawToolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Info.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\Window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\app-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\app-main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\circle.cur" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\app-ico-info.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\bgPat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\demo-draw-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\images\demo-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\pen.cur" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\css\square.cur" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\data\draw-sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\images\app-ico-draw.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\images\app-ico-info.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Demo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Dock.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Draw.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawContent.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawLayersPanel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawSide.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\DrawToolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Info.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\Window.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\canvas-toBlob.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\demo-commons.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\demo-data.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\js\jsrender.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Demo.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Dock.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Draw.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawContent.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawLayersPanel.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawSide.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\DrawToolbar.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Info.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\draw\tmpl\Window.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\ProjectEdit.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\content-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\logo-24.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\images\nav-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\ProjectEdit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\ProjectEdit.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\sample\taskmanager\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\src\js\brite.core.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\src\js\brite.dao.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\src\js\brite.event.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-01-helloworld.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-02-HelloComponent.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-03-dialogPrompt.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-04-viewEvents.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-A-05-parentEvents.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-B-01-dao.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-B-02-inMemoryDao.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-C-01-btap.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-C-02-bdrag.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-C-03-btransitionend.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-D-01-ua.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-U-inherit.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-U-utils.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\brite-test-Z-Experiments-01-transition.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\css\DialogPrompt.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\css\sTestHelper.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\DialogPrompt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\HelloComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\sTestHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\js\testunit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\tmpl\DialogPrompt.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\test\tmpl\HelloComponent.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\01\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\02\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\03\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\MainView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\ProjectListNav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\ProjectView.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\MainView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\ProjectListNav.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\ProjectView.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\tmpl\MainView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\tmpl\ProjectListNav.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\tutorial\taskmanager\04\tmpl\ProjectView.tmpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\xp\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\xp\brite.IdbDaoHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\britesnow\xp\brite.xp.SQLiteDaoHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery\jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\external\jquery\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\images\ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\kanbanery\javascript\jquery_ui\jquery-ui.theme.min.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\backend\backend_de.php" afterPath="$PROJECT_DIR$/_datenbank_admin/backend_de.php" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\public\_htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\kanbanery\spec\abrufenTaskInfoTest.php" afterPath="$PROJECT_DIR$/_spec/abrufenTaskInfoTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controller/handlebarsController.php" afterPath="$PROJECT_DIR$/application/controller/handlebarsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kanbanery.iml" afterPath="$PROJECT_DIR$/.idea/kanbanery.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controller/startController.php" afterPath="$PROJECT_DIR$/application/controller/startController.php" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kanbanery.iws" />
@@ -2776,64 +2612,54 @@
     <favorites_list name="kanbanery" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf />
-=======
     <leaf>
-      <file leaf-file-name="handlebarsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handlebarsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controller/handlebarsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35443038" vertical-offset="128" max-vertical-offset="918">
-              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            <state vertical-scroll-proportion="-14.620689" vertical-offset="736" max-vertical-offset="1340">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlebars.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/views/bausteine/handlebars.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.61849713" vertical-offset="981" max-vertical-offset="2340">
+              <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
               <folding>
-                <element signature="e#6#156#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
+      <file leaf-file-name="formular1.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/forms/formular1.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6538463" vertical-offset="677" max-vertical-offset="2856">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="280">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Engine.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
+      <file leaf-file-name="formular2.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/forms/formular2.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8076925" vertical-offset="2271" max-vertical-offset="8619">
-              <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="startController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.8076925" vertical-offset="231" max-vertical-offset="1632">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.0689654" vertical-offset="0" max-vertical-offset="340">
+              <caret line="3" column="90" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="90" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -2858,9 +2684,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tool/class.ConfigMagik.php" />
-        <option value="$PROJECT_DIR$/tool/toolConfig.php" />
-        <option value="$PROJECT_DIR$/application/table/sessions.php" />
         <option value="$PROJECT_DIR$/application/table/abstract.php" />
         <option value="$PROJECT_DIR$/application/table/session.php" />
         <option value="$PROJECT_DIR$/application/table/exception.php" />
@@ -2872,6 +2695,7 @@
         <option value="$PROJECT_DIR$/application/table/log.php" />
         <option value="$PROJECT_DIR$/tool/toolLogger.php" />
         <option value="$PROJECT_DIR$/tool/toolCrud.php" />
+        <option value="$PROJECT_DIR$/application/controller/startController.php" />
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/movies/PagesCore/movies.html" />
         <option value="$PROJECT_DIR$/public/jquery/jquery-tmpl-master/demos/step-by-step/0_tmpl-read-only/0_local-data.html" />
@@ -2900,15 +2724,17 @@
         <option value="$PROJECT_DIR$/application/controller/LoggerController.php" />
         <option value="$PROJECT_DIR$/application/model/Logging.php" />
         <option value="$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/javascript/index.html" />
         <option value="$PROJECT_DIR$/images/index.html" />
         <option value="$PROJECT_DIR$/application/model/Bla.php" />
         <option value="$PROJECT_DIR$/application/controller/traitController.php" />
         <option value="$PROJECT_DIR$/application/model/Blub.php" />
-        <option value="$PROJECT_DIR$/application/controller/startController.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/views/forms/formular2.hbs" />
+        <option value="$PROJECT_DIR$/public/views/forms/formular1.hbs" />
         <option value="$PROJECT_DIR$/application/controller/handlebarsController.php" />
+        <option value="$PROJECT_DIR$/public/views/bausteine/handlebars.html" />
       </list>
     </option>
   </component>
@@ -2916,7 +2742,6 @@
     <servers>
       <server host="kanbanery" name="kanbanery" />
       <server host="localhost" name="localhost" />
-      <server host="backend.hob.de" name="backend.hob.de" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Php">
@@ -2938,47 +2763,13 @@
       <path value="$PROJECT_DIR$/vendor/phpsec/phpsec" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
-      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/vendor/rtens/mockster" />
-      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
-      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
-      <path value="$PROJECT_DIR$/vendor/watoki/factory" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
-      <path value="$PROJECT_DIR$/vendor/symfony/config" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
-=======
-    <option name="x" value="-1288" />
-    <option name="y" value="48" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -3013,11 +2804,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-<<<<<<< HEAD
-    <navigator proportions="" version="1" splitterProportion="0.5">
-=======
     <navigator currentView="ProjectPane" proportions="" version="1">
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3028,9 +2815,6 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-<<<<<<< HEAD
-    <panes />
-=======
     <panes>
       <pane id="ProjectPane">
         <subPane>
@@ -3064,47 +2848,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanbanery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="kanbanery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="kanbanery">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="public">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -3124,8 +2929,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\kanbanery\application\controller" />
       <recent name="C:\xampp\htdocs\kanbanery\application\model" />
+      <recent name="C:\xampp\htdocs\kanbanery\application\controller" />
       <recent name="C:\xampp\htdocs\kanbanery\application\table" />
       <recent name="C:\xampp\htdocs\kanbanery\public\views" />
       <recent name="C:\xampp\htdocs\kanbanery\tool" />
@@ -3159,8 +2964,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-<<<<<<< HEAD
-=======
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
@@ -3168,7 +2971,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="3d3336a3-1e16-4049-9d73-207602481297" server_name="kanbanery">
@@ -3255,49 +3057,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-=======
-    <frame x="-1288" y="48" width="1296" height="1000" extended-state="6" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Structure" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25346112" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1517572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30589545" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30589545" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-=======
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3064133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24813631" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27948305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1517572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3063263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36262515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3369,104 +3155,28 @@
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/application/controller/startController.php</url>
-          <line>42</line>
+          <line>43</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
-=======
-          <url>file://$PROJECT_DIR$/application/controller/handlebarsController.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/handlebarsController.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/handlebarsController.php</url>
-          <line>37</line>
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/handlebarsController.php</url>
-          <line>41</line>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/views/bausteine/handlebars.html</url>
+          <line>23</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public/index.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/application/controller/startController.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="196" />
-        </line-breakpoint>
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-<<<<<<< HEAD
-      <option name="time" value="184" />
-=======
-      <option name="time" value="198" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
+      <option name="time" value="189" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4140">
-          <caret line="179" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/application/model/Bla.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1520" max-vertical-offset="3280">
-          <caret line="76" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/traitController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="640">
-          <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/model/bla.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="440">
-          <caret line="3" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/model/Blub.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="420">
           <caret line="6" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/application/model/Blub.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
         </state>
       </provider>
     </entry>
@@ -3531,7 +3241,6 @@
         <state vertical-scroll-proportion="0.30828518" vertical-offset="0" max-vertical-offset="519">
           <caret line="8" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-<<<<<<< HEAD
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/iToolCrud.php">
@@ -3539,8 +3248,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="240">
           <caret line="5" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-=======
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/start.html">
@@ -3631,10 +3338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3200" max-vertical-offset="3320">
           <caret line="160" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-=======
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
         </state>
       </provider>
     </entry>
@@ -3652,7 +3355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool/ToolValidate.php">
+    <entry file="file://$PROJECT_DIR$/tool/toolValidate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1421801" vertical-offset="0" max-vertical-offset="4560">
           <caret line="6" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3734,8 +3437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14869888" vertical-offset="0" max-vertical-offset="807">
           <caret line="6" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-=======
         </state>
       </provider>
     </entry>
@@ -3746,117 +3447,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="3434">
-          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/model/Bla.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.14869888" vertical-offset="0" max-vertical-offset="807">
-          <caret line="6" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/model/Blub.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.17348203" vertical-offset="0" max-vertical-offset="807">
-          <caret line="7" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/traitController.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="1520" max-vertical-offset="3280">
           <caret line="76" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="544">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/iToolCrud.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="3.2392638" vertical-offset="240" max-vertical-offset="10140">
-          <caret line="150" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="204">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/startController.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0" vertical-offset="3580" max-vertical-offset="4140">
-          <caret line="179" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="-6.8076925" vertical-offset="231" max-vertical-offset="1632">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.07092199" vertical-offset="0" max-vertical-offset="846">
-          <caret line="3" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/Engine.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+        <state vertical-scroll-proportion="3.2392638" vertical-offset="240" max-vertical-offset="10140">
+          <caret line="150" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mikecao/flight/flight/core/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3580" max-vertical-offset="4140">
+          <caret line="179" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/model/bla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07092199" vertical-offset="0" max-vertical-offset="846">
+          <caret line="3" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/model/Blub.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14184397" vertical-offset="0" max-vertical-offset="846">
           <caret line="6" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="-6.8076925" vertical-offset="2271" max-vertical-offset="8619">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/application/controller/traitController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6538463" vertical-offset="677" max-vertical-offset="2856">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_datenbank_admin/backend_de.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state vertical-scroll-proportion="0.40189126" vertical-offset="0" max-vertical-offset="846">
           <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -3867,20 +3495,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1536643" vertical-offset="470" max-vertical-offset="1920">
           <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-=======
-        <state vertical-scroll-proportion="26.368015" vertical-offset="0" max-vertical-offset="13838">
-          <caret line="805" column="318" selection-start-line="805" selection-start-column="318" selection-end-line="805" selection-end-column="318" />
->>>>>>> ce543cab231b81f76875846e8805288dd4a4a7e0
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/forms/formular1.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5172415" vertical-offset="0" max-vertical-offset="280">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controller/handlebarsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35443038" vertical-offset="128" max-vertical-offset="918">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state vertical-scroll-proportion="-14.620689" vertical-offset="736" max-vertical-offset="1340">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/forms/formular2.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0689654" vertical-offset="0" max-vertical-offset="340">
+          <caret line="3" column="90" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/bausteine/handlebars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.61849713" vertical-offset="981" max-vertical-offset="2340">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
           <folding>
-            <element signature="e#6#156#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

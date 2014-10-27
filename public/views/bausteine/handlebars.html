@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test Handlebars</title>
+
+    <link rel="stylesheet" href="/jqueryUi/jquery-ui.css">
+
+    <script type="text/javascript" src="/javascript/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="/jqueryUi/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="/javascript/handlebars-v2.0.0.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Steuerung -->
+    <script type="text/javascript">
+
+        // Tabs
+        $(function() {
+            $( "#tabs" ).tabs();
+        });
+
+        $(document).ready(function()
+        {
+            // Teilbereich 2
+            var teil2Str = $("#subtemplat2").html();
+            var template2 = Handlebars.compile(teil2Str);
+            $("#teilbereich2").html(template2);
+
+//            var Teil2 = {
+//                handlerData:function(resJSON)
+//                {
+//                    // var data = jQuery.parseJSON(resJSON);
+//
+//                    var data = {
+//                        AO_City: 'Berlin'
+//                    };
+//
+//                    var source   = $("#subtemplat2").html();
+//                    var template = Handlebars.compile(source(data));
+//                    $('#teilbereich2').html(template);
+//
+//                },
+//                loadData : function(){
+//
+//                    $.ajax({
+//                        url:"/handlebars/dataFormTeil2/",
+//                        method:'get',
+//                        success:this.handlerData
+//
+//                    })
+//                }
+//            };
+
+            var data = {
+                AO_City: 'Berlin'
+            };
+
+            var source   = $("#subtemplat2").html();
+            var template = Handlebars.compile(source(data));
+            $('#teilbereich2').html(template);
+
+//            $("#button").click(function(){
+//                Teil2.loadData();
+//            });
+        });
+
+    </script>
+</head>
+<body>
+    <h3>Grundidee Template</h3>
+
+    <div id="tabs" style="width: 1200px;">
+        <ul>
+            <li><a href="#tabs-1">Tab 1</a></li>
+            <li><a href="#tabs-2">Tab 2</a></li>
+        </ul>
+
+        <!-- Tab 1 -->
+        <div id="tabs-1" style="min-height: 800px;">
+
+            Teil 1
+
+            <!-- Teilbereich 1 -->
+            <h3>Teilbereich 1 , Stammelement</h3>
+            <div id="teilbereich1" style="width: 600px; height: 600px; border: red 1px solid; float: left;">
+                {% include 'forms/formular1.hbs' %}
+            </div>
+
+            <!-- Teilbereich 2 -->
+            <h3>Teilbereich 2</h3>
+            <div id="teilbereich2" style="width: 500px; height: 300px; border: solid #008000 1px; float:left;">
+               &nbsp;
+            </div>
+
+            <!-- Subtemplat 2 -->
+            <script id="subtemplat2" type="text/x-handlebars-template">
+                {% include 'forms/formular2.hbs' %}
+            </script>
+        </div>
+
+        <!-- Tab 2 -->
+        <div id="tabs-2" style="min-height: 800px;">
+            Teil 2
+        </div>
+
+
+
+    </div>
+</body>
+</html>
