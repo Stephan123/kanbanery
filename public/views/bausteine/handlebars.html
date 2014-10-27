@@ -23,47 +23,89 @@
 
         $(document).ready(function()
         {
-            // Teilbereich 2
-            var teil2Str = $("#subtemplat2").html();
-            var template2 = Handlebars.compile(teil2Str);
-            $("#teilbereich2").html(template2);
+            // Formular anzeigen und befüllen
+            $("#anzeigen").on("click",function(e){
+                $.ajax({
+                    url: '/handlebars/dataFormTeil2/',
+                    type: 'post',
+                    data: ({
+                        bla: 'bla',
+                        blub: 'blub'
+                    }),
+                    dataType: 'json',
+                    success: function(result){
+                        var source   = $("#subtemplat2").html();
+                        var template = Handlebars.compile(source);
+                        $('#teilbereich2').html(template(result));
+                    }
+                });
+            });
 
-//            var Teil2 = {
-//                handlerData:function(resJSON)
-//                {
-//                    // var data = jQuery.parseJSON(resJSON);
-//
-//                    var data = {
-//                        AO_City: 'Berlin'
-//                    };
-//
-//                    var source   = $("#subtemplat2").html();
-//                    var template = Handlebars.compile(source(data));
-//                    $('#teilbereich2').html(template);
-//
-//                },
-//                loadData : function(){
-//
-//                    $.ajax({
-//                        url:"/handlebars/dataFormTeil2/",
-//                        method:'get',
-//                        success:this.handlerData
-//
-//                    })
-//                }
-//            };
+            // Teilbereich leeren
+            $("#verstecken").on("click",function(e){
+                $("#teilbereich2").html(' ');
+            });
 
-            var data = {
-                AO_City: 'Berlin'
-            };
+            // Tabelle
+            var dataTable = [
+                { n: 'a' },
+                { n: 'b' },
+                { n: 'c' },
+                { n: 'd' },
+                { n: 'e' },
+                { n: 'f' },
+                { n: 'g' },
+                { n: 'h' },
+                { n: 'i' },
+                { n: 'j' },
+                { n: 'k' },
+                { n: 'l' },
+                { n: 'm' },
+                { n: 'n' },
+                { n: 'o' }
+            ];
 
-            var source   = $("#subtemplat2").html();
-            var template = Handlebars.compile(source(data));
-            $('#teilbereich2').html(template);
+            function transform ( arr ) {
+                var result = [], temp = [];
+                arr.forEach( function ( elem, i ) {
+                    if ( i > 0 && i % 5 === 0 ) {
+                        result.push( temp );
+                        temp = [];
+                    }
+                    temp.push( elem );
+                });
+                if ( temp.length > 0 ) {
+                    result.push( temp );
+                }
+                return result;
+            }
 
-//            $("#button").click(function(){
-//                Teil2.loadData();
-//            });
+            $("#tabelleButton").on("click",function(e){
+                // result = transform( dataTable );
+
+                $.ajax({
+                    url: '/handlebars/dataGrid/',
+                    type: 'post',
+                    data: ({
+                        bla: 'bla',
+                        blub: 'blub'
+                    }),
+                    dataType: 'json',
+                    success: function(result){
+//                        var source   = $("#subtemplat2").html();
+//                        var template = Handlebars.compile(source);
+//                        $('#teilbereich2').html(template(result));
+
+                        var source   = $("#subtabelle").html();
+                        var template = Handlebars.compile(source);
+                        $('#tabelle').html(template(result));
+                    }
+                });
+
+
+            });
+
+
         });
 
     </script>
@@ -79,9 +121,6 @@
 
         <!-- Tab 1 -->
         <div id="tabs-1" style="min-height: 800px;">
-
-            Teil 1
-
             <!-- Teilbereich 1 -->
             <h3>Teilbereich 1 , Stammelement</h3>
             <div id="teilbereich1" style="width: 600px; height: 600px; border: red 1px solid; float: left;">
@@ -97,6 +136,16 @@
             <!-- Subtemplat 2 -->
             <script id="subtemplat2" type="text/x-handlebars-template">
                 {% include 'forms/formular2.hbs' %}
+            </script>
+
+            <!-- Tabelle -->
+            <h3>Tabelle</h3>
+            <div id="tabelle" style="width: 500px; height: 300px; border: solid #008000 1px; float:left;">
+               &nbsp;
+            </div>
+
+            <script id="subtabelle" type="text/x-handlebars-template">
+                {% include 'grids/grid1.hbs' %}
             </script>
         </div>
 

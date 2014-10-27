@@ -56,15 +56,44 @@ class handlebarsController implements iToolCrud{
     {
         $data = array(
             'region' => 'Sachsen',
-            'AO_City_ID' => '5',
-            'AO_City' => 'Langenweißbach',
+            'AO_City_ID' => '11',
+            'AO_City' => 'Bla',
             'aktiv' => '2',
-            'bettensteuer' => 'Bettensteuer'
+            'bettensteuer' => 'Blub'
         );
 
         $response = json_encode($data);
 
         echo $response;
+    }
+
+    public function dataGrid()
+    {
+        $grid = array();
+
+        $grid[] = array(
+            'name' => 'Krauß',
+            'vorname' => 'Stephan'
+        );
+
+        $grid[] = array(
+            'name' => 'Krauß',
+            'vorname' => 'Antje'
+        );
+
+        $grid[] = array(
+            'name' => 'Krauß',
+            'vorname' => 'Thomas'
+        );
+
+        $grid[] = array(
+            'name' => 'Krauß',
+            'vorname' => 'Matthias'
+        );
+
+        $jsonGrid = json_encode($grid);
+
+        echo $jsonGrid;
     }
 
 }

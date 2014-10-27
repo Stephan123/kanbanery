@@ -1,6 +1,18 @@
-<h1>{{header}}</h1>
-<ul>
-    {{#store}}
-        <li>{{name}} - {{isbn}}</li>
-    {{/store}}
-</ul>
+{% verbatim %}
+<table class="grid">
+    <tr class="row">
+        <th class="cell">Name</th>
+        <th class="cell">Vorname</th>
+    </tr>
+    {{#each this}}
+    <tr class="row">
+        <td class="cell">
+            {{name}}
+        </td>
+        <td class="cell">
+            {{vorname}}
+        </td>
+    </tr>
+    {{/each}}
+</table>
+{% endverbatim %}
