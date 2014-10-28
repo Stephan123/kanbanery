@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulare und Tabelle</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/eggplant/jquery-ui.css">
+</head>
+<body>
+    <div id="tabs" style="width: 1200px;">
+        <ul>
+            <li><a href="#tabs-1">Tab 1</a></li>
+        </ul>
+
+        <!-- Tab 1 -->
+        <div id="tabs-1" style="min-height: 800px;">
+            <!-- Teilbereich 1 -->
+            <h3>Teilbereich 1 , Stammelement</h3>
+            <div id="test">
+                &nbsp;
+            </div>
+
+
+            <div id="teilbereich1" style="width: 600px; height: 600px; border: red 1px solid; float: left;">
+                <h1>My Tweets</h1>
+
+                <!-- Templat 1 -->
+                <script id="subtemplate" type="text/x-handlebars-template">
+                {% verbatim %}
+                <ul>
+                    {{#each this}}
+                    <li>
+                        {{{author.name}}} , {{{author.vorname}}} {{#if age}}{{age}}{{/if}}
+                        <p>{{tweet}}</p>
+
+                        {{#unless quote}}
+                            bla blub
+                        {{/unless}}
+
+                        {{#if quote}}
+                            <br> vorhanden !
+                        {{else}}
+                            <br> nicht vorhanden !
+                        {{/if}}
+                    </li>
+                    {{/each}}
+                </ul>
+
+                {% endverbatim %}
+                </script>
+            </div>
+        </div>
+    </div>
+
+<!-- Bibliotheken -->
+        <script type="text/javascript" src="/javascript/jquery-1.11.1.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+
+        <script type="text/javascript" src="/javascript/handlebars-v2.0.0.js"></script>
+
+        <script type="text/javascript">
+
+
+            $(document).ready(function()
+            {
+                var data = [
+                    {
+                        author: {chef: 'nein', name: 'Krauß', vorname: 'Stephan'},
+                        tweet: 'lernen Handlebars',
+                        age: 56,
+                        quote: 'abc'
+                    },{
+                        author: {chef: 'ja', name: 'Krauß', vorname: 'Antje'},
+                        tweet: 'alles Mist',
+                        age: 55
+                    }
+                ];
+
+                var template = Handlebars.compile($("#subtemplate").html());
+                console.log(template);
+
+                // Tabs
+                $(function() {
+                    $("#tabs").tabs();
+                });
+
+                $("#test").html(template(data));
+                console.log(template(data));
+
+
+//            });
+
+            <!-- Steuerung -->
+//            (function(){
+//                var data = {
+//                    author: 'Stephan Krauß',
+//                    tweet: 'lernen Handlebars'
+//                };
+//
+//                var template = Handlebars.compile( $("#subtemplat1").html() );
+//                var temp = template(data);
+//                $("ul.tweets").append(temp);
+//
+//                // console.log(temp);
+            });
+        </script>
+</body>
+</html>
